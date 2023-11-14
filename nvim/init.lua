@@ -1,0 +1,5 @@
+require("base")
+require("autocmd")
+require("plugins")
+require("colorscheme")
+require("keymappings")
