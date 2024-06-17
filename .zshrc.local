@@ -1,0 +1,50 @@
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
+
+autoload -U compinit && compinit
+
+# source
+source "$HOME/.rye/env"
+
+# common aliases
+alias vi=nvim
+alias ra=ranger
+alias ya=yazi 
+alias gta='git add'
+alias gtaa='gta --all'
+alias gtr='git reset'
+alias gts='git status'
+alias gtw='git switch'
+alias gtc='git commit -m'
+alias gtg='git log --graph --oneline --decorate'
+alias gtp='git push'
+alias gtb='git branch'
+alias gtl='git pull'
+alias gtcc='git rm -r --cached .'
+alias reflectorjp='sudo reflector --country 'Japan' --age 24 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
+alias ip="ip -c"
+alias ls="ls --color=auto"
+alias la="ls -a"
+alias ll="ls -l"
+alias nf="touch"
+alias curseforge="~/.curseforge/AppRun"
+alias qidi="~/Apps/QIDI_Print-6.4.1.AppImage"
+alias bs="bambu-studio"
+alias ssr="simplescreenrecorder"
+
+# functions
+uzp() {
+  unzip "$1".zip -d "$1";
+}
+
+gtnb() {
+  gtb "$1";
+  gtp -u origin "$1";
+  gtw "$1";
+}
+
+eval "$(starship init zsh)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
+
