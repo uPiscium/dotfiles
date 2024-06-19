@@ -32,6 +32,11 @@ cd ~/
 rm -rf yay
 yay -Syu
 
+mkdir Documents
+mkdir Downloads
+mkdir Musics
+
+cd ~/dotfiles
 cat ./packages.list | yay -S --noconfirm -
 
 sudo systemctl enable --now power-profiles-daemon.service
