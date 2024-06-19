@@ -17,7 +17,11 @@ ln -sf ~/dotfiles/.xprofile ~/.xprofile
 ln -sf ~/dotfiles/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/.zshrc.local ~/.zshrc.local
 
-sudo rm /etc/pacman.conf
-ln -sf ~/dotfiles/pacman.conf /etc/pacman.conf
+sudo cp ~/dotfiles/pacman.conf /etc/pacman.conf
+
+sudo pacman-key --recv-keys 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
+sudo pacman-key --finger 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
+sudo pacman-key --lsign-key 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
+sudo pacman-key --finger 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
 
 cat ./inits.list | sudo pacman -S --noconfirm -
