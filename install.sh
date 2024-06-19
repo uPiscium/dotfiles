@@ -20,13 +20,9 @@ sudo pacman-key --recv-keys 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
 sudo pacman-key --finger 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
 sudo pacman-key --lsign-key 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
 sudo pacman-key --finger 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
+sudo pacman -Syu
 
 cat ./inits.list | sudo pacman -S --noconfirm -
-
-sudo systemctl enable --now power-profiles-daemon.service
-systemctl enable --now supergfxd
-systemctl enable --now switcheroo-control
-sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 cd ~/
 git clone https://aur.archlinux.org/yay.git
@@ -34,5 +30,14 @@ cd yay
 makepkg -si
 cd ~/
 rm -rf yay
+yay -Syu
 
 cat ./packages.list | yay -S --noconfirm -
+
+sudo systemctl enable --now power-profiles-daemon.service
+sudo systemctl enable --now supergfxd
+sudo systemctl enable --now switcheroo-control
+sudo systemctl enable lightdm
+sudo systemctl enable acpid
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+

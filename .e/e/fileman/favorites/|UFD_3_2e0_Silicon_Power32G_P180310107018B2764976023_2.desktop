@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Link
+X-Enlightenment-Type=Removable
+X-Enlightenment-Removable-State=Full
+Name=VTOYEFI
+Icon=drive-removable-media
+Comment=着脱可能媒体
+URL=file://dev/sda2
