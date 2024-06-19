@@ -7,9 +7,6 @@ ln -sf ~/dotfiles/.e ~/.e
 ln -sf ~/dotfiles/.elementary ~/.elementary
 ln -sf ~/dotfiles/.ssh ~/.ssh
 
-rm ~/.bashrc
-rm ~/.bash_profile
-rm ~/.bash_logout
 rm ~/.xprofile
 rm ~/.zshrc
 rm ~/.zshrc.local
