@@ -31,6 +31,7 @@ alias curseforge="~/.curseforge/AppRun"
 alias qidi="~/Apps/QIDI_Print-6.4.1.AppImage"
 alias bs="bambu-studio"
 alias ssr="simplescreenrecorder"
+alias yay="yay -Syu && yay -Qeq > ~/dotfiles/packages.list"
 
 # functions
 uzp() {
