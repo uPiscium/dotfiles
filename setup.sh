@@ -25,3 +25,8 @@ sudo pacman-key --lsign-key 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
 sudo pacman-key --finger 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
 
 cat ./inits.list | sudo pacman -S --noconfirm -
+
+sudo systemctl enable --now power-profiles-daemon.service
+systemctl enable --now supergfxd
+systemctl enable --now switcheroo-control
+sudo grub-mkconfig -o /boot/grub/grub.cfg
