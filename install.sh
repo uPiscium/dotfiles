@@ -39,9 +39,6 @@ mkdir Musics
 cd ~/dotfiles
 cat ./packages.list | yay -S --noconfirm -
 
-sudo systemctl enable --now power-profiles-daemon.service
-sudo systemctl enable --now supergfxd
-sudo systemctl enable --now switcheroo-control
 sudo systemctl enable lightdm
 sudo systemctl enable acpid
 sudo grub-mkconfig -o /boot/grub/grub.cfg
