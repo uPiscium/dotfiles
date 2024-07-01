@@ -21,6 +21,8 @@ alias gtcc='git rm -r --cached .'
 alias ghrc='gh repo clone'
 alias ghpc='gh pr create -B'
 alias ghpm='gh pr merge'
+alias ghlc='gh release create'
+alias ghll='gh release list'
 alias ip="ip -c"
 alias ls="ls --color=auto"
 alias la="ls -a"
