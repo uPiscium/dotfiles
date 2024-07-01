@@ -1,10 +1,12 @@
 rm -rf ~/.config
 rm -rf ~/.e
 rm -rf ~/.elementary
+rm -rf ~/.rye
 rm -rf ~/.ssh
 ln -sf ~/dotfiles/.config ~/.config
 ln -sf ~/dotfiles/.e ~/.e
 ln -sf ~/dotfiles/.elementary ~/.elementary
+ln -sf ~/dotfiles/.rye ~/.rye
 ln -sf ~/dotfiles/.ssh ~/.ssh
 
 rm ~/.xprofile

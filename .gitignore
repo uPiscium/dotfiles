@@ -15,4 +15,10 @@ vlc/
 xournalpp/
 QtProject.conf
 .e/e/recent-files.txt
+.rye/py
+.rye/self
+.rye/shims
+.rye/tools
+.rye/uv
+.rye/env
 
