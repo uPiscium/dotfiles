@@ -38,6 +38,7 @@ noto-fonts-emoji
 noto-fonts-extra
 npm
 pipewire
+power-profiles-daemon
 ripgrep
 rye
 sl
