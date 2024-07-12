@@ -1,10 +1,6 @@
 rm -rf ~/.config
-rm -rf ~/.e
-rm -rf ~/.elementary
 rm -rf ~/.ssh
 ln -sf ~/dotfiles/.config ~/.config
-ln -sf ~/dotfiles/.e ~/.e
-ln -sf ~/dotfiles/.elementary ~/.elementary
 ln -sf ~/dotfiles/.ssh ~/.ssh
 
 rm ~/.xprofile
@@ -46,3 +42,7 @@ sudo systemctl enable lightdm
 sudo systemctl enable acpid
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
+git config --global init.defaultBranch main
+git config --global credential.helper store
+git config --global user.email "upiscium@gmail.com"
+git config --global user.name "uPiscium"
