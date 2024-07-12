@@ -3,13 +3,9 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.pl
 
 autoload -U compinit && compinit
 
-# source
 source "$HOME/.rye/env"
 
 # common aliases
-alias vi=nvim
-alias ra=ranger
-alias ya=yazi 
 alias gta='git add'
 alias gtaa='gta --all'
 alias gtr='git reset'
@@ -21,15 +17,16 @@ alias gtp='git push'
 alias gtb='git branch'
 alias gtl='git pull'
 alias gtcc='git rm -r --cached .'
-alias reflectorjp='sudo reflector --country 'Japan' --age 24 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
+alias ghrc='gh repo clone'
+alias ghpc='gh pr create -B'
+alias ghpm='gh pr merge'
+alias ghlc='gh release create'
+alias ghll='gh release list'
 alias ip="ip -c"
 alias ls="ls --color=auto"
 alias la="ls -a"
 alias ll="ls -l"
 alias nf="touch"
-alias curseforge="~/.curseforge/AppRun"
-alias qidi="~/Apps/QIDI_Print-6.4.1.AppImage"
-alias bs="bambu-studio"
 alias ssr="simplescreenrecorder"
 
 # functions

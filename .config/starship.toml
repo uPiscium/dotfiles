@@ -1,114 +1,23 @@
 format = """
-[](#000000)\
-$os\
-$username\
-[](bg:#880000 fg:#000000)\
+[](#880000)\
+$time\
+[](fg:#880000 bg:#000000)\
+$battery\
+[](fg:#000000 bg:#880000)\
 $directory\
 [](fg:#880000 bg:#000000)\
 $git_branch\
 [](fg:#000000 bg:#880000)\
-$localip\
-[](fg:#880000 bg:#000000)\
-$battery\
-[](fg:#000000 bg:#880000)\
-$time\
-[ ](fg:#880000)\
+$python\
+[](fg:#880000)\
 \n$character
 """
 
-# Disable the blank line at the start of the prompt
-# add_newline = false
-
-# You can also replace your username with a neat symbol like   or disable this
-# and use the os module below
-[username]
-show_always = true
-style_user = "fg:#FF0000 bg:#000000"
-style_root = "fg:#FF0000 bg:#000000"
-format = '[$user ]($style)'
+[time]
 disabled = false
-
-[git_branch]
-symbol = '  '
-truncation_length = 32
-truncation_symbol = ''
-style = "fg:#FF0000 bg:#000000"
-format = '[$symbol$branch ]($style)'
-
-# An alternative to the username module which displays a symbol that
-# represents the current operating system
-[os]
-style = "fg:#FF0000 bg:#000000"
-format = '[$symbol]($style)'
-disabled = false # Disabled by default
-
-[os.symbols]
-Alpaquita = "🔔 "
-Alpine = "🏔️ "
-Amazon = "🙂 "
-Android = "🤖 "
-Arch = " "
-Artix = "🎗️ "
-CentOS = "💠 "
-Debian = "🌀 "
-DragonFly = "🐉 "
-Emscripten = "🔗 "
-EndeavourOS = "🚀 "
-Fedora = "🎩 "
-FreeBSD = "😈 "
-Garuda = "🦅 "
-Gentoo = "🗜️ "
-HardenedBSD = "🛡️ "
-Illumos = "🐦 "
-Linux = "🐧 "
-Mabox = "📦 "
-Macos = "🍎 "
-Manjaro = "🥭 "
-Mariner = "🌊 "
-MidnightBSD = "🌘 "
-Mint = "🌿 "
-NetBSD = "🚩 "
-NixOS = "❄️ "
-OpenBSD = "🐡 "
-OpenCloudOS = "☁️ "
-openEuler = "🦉 "
-openSUSE = "🦎 "
-OracleLinux = "🦴 "
-Pop = "🍭 "
-Raspbian = "🍓 "
-Redhat = "🎩 "
-RedHatEnterprise = "🎩 "
-Redox = "🧪 "
-Solus = "⛵ "
-SUSE = "🦎 "
-Ubuntu = "🎯 "
-Unknown = "❓ "
-Windows = "🪟 "
-
-[directory]
+time_format = "%R" # Hour:Minute Format
 style = "fg:#000000 bg:#880000"
-format = "[ $path ]($style)"
-truncation_length = 3
-truncation_symbol = "…/"
-
-# Here is how you can shorten some long paths by text replacement
-# similar to mapped_locations in Oh My Posh:
-[directory.substitutions]
-"Documents" = "󰈙 "
-"Downloads" = " "
-"Music" = " "
-"Pictures" = " "
-# Keep in mind that the order matters. For example:
-# "Important Documents" = " 󰈙 "
-# will not be replaced, because "Documents" was already substituted before.
-# So either put "Important Documents" before "Documents" or use the substituted version:
-# "Important 󰈙 " = " 󰈙 "
-
-[localip]
-ssh_only = false
-style = "fg:#000000 bg:#880000"
-format = '[ $localipv4 ]($style)'
-disabled = false
+format = '[$time ]($style)'
 
 [battery]
 format = '[ $symbol$percentage ]($style)'
@@ -179,9 +88,27 @@ charging_symbol = '󰂅 '
 discharging_symbol = '󰁹 '
 style = 'fg:#00FF00 bg:#000000'
 
-[time]
-disabled = false
-time_format = "%R" # Hour:Minute Format
+[directory]
 style = "fg:#000000 bg:#880000"
-format = '[ $time ]($style)'
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[git_branch]
+symbol = '  '
+truncation_length = 32
+truncation_symbol = ''
+style = "fg:#FF0000 bg:#000000"
+format = '[$symbol$branch ]($style)'
+
+[python]
+symbol = '󰆦 '
+style = "fg:#000000 bg:#880000"
+format = '[ ${symbol}${version}(\($virtualenv\))]($style)'
 

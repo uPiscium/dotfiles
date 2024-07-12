@@ -84,7 +84,13 @@
         "typ",
         "typst"
       ]
-    }
+    },
+    "sh": {
+      "command": "bash-language-server",
+      "filetypes": [
+        "sh"
+      ]
+    },
   },
   "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/18.1.3/clangd_18.1.3/bin/clangd"
 }

@@ -18,7 +18,7 @@ sudo pacman-key --lsign-key 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
 sudo pacman-key --finger 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
 sudo pacman -Syu
 
-cat ./inits.list | sudo pacman -S --noconfirm -
+sudo pacman -S --noconfirm git go
 
 cd ~/
 git clone https://aur.archlinux.org/yay.git
@@ -35,11 +35,9 @@ mkdir Musics
 cd ~/dotfiles
 cat ./packages.list | yay -S --noconfirm -
 
-sudo systemctl enable --now power-profiles-daemon.service
-sudo systemctl enable --now supergfxd
-sudo systemctl enable --now switcheroo-control
 sudo systemctl enable lightdm
 sudo systemctl enable acpid
+sudo systemctl enable bluetooth
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 git config --global init.defaultBranch main

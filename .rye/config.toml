@@ -1,0 +1,7 @@
+[default]
+requires-python = ">= 3.8"
+toolchain = "cpython@3.12"
+
+[behavior]
+use-uv = true
+global-python = true
