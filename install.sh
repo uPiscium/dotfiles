@@ -7,6 +7,7 @@ rm ~/.xprofile
 rm ~/.zshrc
 rm ~/.zshrc.local
 ln -sf ~/dotfiles/.xprofile ~/.xprofile
+ln -sf ~/dotfiles/.xmodmap ~/.xmodmap
 ln -sf ~/dotfiles/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/.zshrc.local ~/.zshrc.local
 

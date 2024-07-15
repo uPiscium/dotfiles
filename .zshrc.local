@@ -28,6 +28,7 @@ alias la="ls -a"
 alias ll="ls -l"
 alias nf="touch"
 alias ssr="simplescreenrecorder"
+alias i3reload="i3-msg reload"
 
 # functions
 uzp() {
