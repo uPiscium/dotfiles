@@ -1,11 +1,8 @@
-rm -rf ~/.config
-rm -rf ~/.ssh
-ln -sf ~/dotfiles/.config ~/.config
-ln -sf ~/dotfiles/.ssh ~/.ssh
+rm -rf ~/.bashrc
+rm -rf ~/.bash_profile
+rm -rf ~/.bash_logout
 
-rm ~/.xprofile
-rm ~/.zshrc
-rm ~/.zshrc.local
+ln -sf ~/dotfiles/.config ~/.config
 ln -sf ~/dotfiles/.xprofile ~/.xprofile
 ln -sf ~/dotfiles/.xmodmap ~/.xmodmap
 ln -sf ~/dotfiles/.zshrc ~/.zshrc

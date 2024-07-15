@@ -16,5 +16,5 @@ size = 9.0
 # Key bindings
 [keyboard]
 bindings = [
-  { key = "Escape", mods = "Super", action = "ToggleViMode" }
+  { key = "Escape", mods = "Alt", action = "ToggleViMode" }
 ]

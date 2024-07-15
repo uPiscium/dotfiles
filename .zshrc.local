@@ -29,6 +29,8 @@ alias ll="ls -l"
 alias nf="touch"
 alias ssr="simplescreenrecorder"
 alias i3reload="i3-msg reload"
+alias usb="sudo mount /dev/sda1 ~/usb"
+alias usbe="sudo umount /dev/sda1"
 
 # functions
 uzp() {
