@@ -26,7 +26,6 @@ alias ip="ip -c"
 alias ls="ls --color=auto"
 alias la="ls -a"
 alias ll="ls -l"
-alias nf="touch"
 alias ssr="simplescreenrecorder"
 alias i3reload="i3-msg reload"
 alias usb="sudo mount /dev/sda1 ~/usb"
@@ -45,7 +44,7 @@ gtnb() {
 
 yu() {
   yay;
-  yay -Qeq > ~/dotfiles/packages.list;
+  ~/dotfiles/update.sh;
 }
 
 eval "$(starship init zsh)"
