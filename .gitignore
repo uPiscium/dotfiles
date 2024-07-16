@@ -1,4 +1,6 @@
+CurseForge/
 Electron/
+autostart/
 bottom/
 coc/
 dconf/
@@ -17,11 +19,11 @@ neofetch/
 nvtop/
 pulse/
 rog/
+tailscale/
 systemd/
 vlc/
 xournalpp/
 QtProject.conf
-.e/e/recent-files.txt
 .rye/py
 .rye/self
 .rye/shims
