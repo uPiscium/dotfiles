@@ -25,15 +25,3 @@ systemd/
 vlc/
 xournalpp/
 QtProject.conf
-.rye/py
-.rye/self
-.rye/shims
-.rye/tools
-.rye/uv
-.rye/env
-unity3d/
-unityhub/
-zoom*.*
-yay/
-user-dirs.dirs
-user-dirs.locale

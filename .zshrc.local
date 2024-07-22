@@ -7,11 +7,9 @@ source "$HOME/.rye/env"
 
 # common aliases
 alias gta='git add'
-alias gtaa='gta --all'
 alias gtr='git reset'
 alias gts='git status'
 alias gtw='git switch'
-alias gtc='git commit -m'
 alias gtg='git log --graph --oneline --decorate'
 alias gtp='git push'
 alias gtb='git branch'
@@ -32,19 +30,44 @@ alias usb="sudo mount /dev/sda1 ~/usb"
 alias usbe="sudo umount /dev/sda1"
 
 # functions
-uzp() {
+function uzp() {
   unzip "$1".zip -d "$1";
 }
 
-gtnb() {
+function gtnb() {
   gtb "$1";
   gtp -u origin "$1";
   gtw "$1";
 }
 
-yu() {
+function yu() {
   yay;
   ~/dotfiles/update.sh;
+}
+
+function gti() {
+  files=$(find . -size +100M);
+  cat .gitignore | grep -v '^#' | grep -v '^$' | while read line; do
+    files=$(echo "$files" | grep -v "$line");
+  done
+  return $files;
+}
+
+function gtaa() {
+  files=$(gti);
+  if [ -n "$files" ]; then
+    echo "Over 100M files detected.";
+    echo -n "Add the files to .gitignore file? (y/n)";
+    read answer;
+    if [ "$answer" = "y" ]; then
+      gti >> .gitignore;
+    fi
+    if [ "$answer" = "n" ]; then
+      echo "Please remove the files and try again.";
+      return 1;
+    fi
+  fi
+  git add --all;
 }
 
 eval "$(starship init zsh)"
