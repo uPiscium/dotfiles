@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-center '/home/uPiscium/dotfiles/.config/i3/bg.png'
