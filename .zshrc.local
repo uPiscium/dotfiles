@@ -5,6 +5,20 @@ autoload -U compinit && compinit
 
 source "$HOME/.rye/env"
 
+function YAY_WRAPPER() {
+  command yay $@;
+  echo "";
+  echo -ne "\033[1;32mUpdate 'packages.list' ? (y/N)\033[0m";
+  read answer;
+  if [ "$answer" = "y" ]; then
+    command yay -Syu;
+    ~/dotfiles/update.sh;
+  else 
+    echo "Skipping 'packages.list' update.";
+  fi
+  xmodmap ~/.xmodmap;
+}
+
 # common aliases
 alias gta='git add'
 alias gtr='git reset'
@@ -29,6 +43,7 @@ alias ssr="simplescreenrecorder"
 alias i3reload="i3-msg reload"
 alias usb="sudo mount /dev/sda1 ~/usb"
 alias usbe="sudo umount /dev/sda1"
+alias yay="YAY_WRAPPER"
 
 # functions
 function uzp() {
@@ -39,11 +54,6 @@ function gtnb() {
   gtb "$1";
   gtp -u origin "$1";
   gtw "$1";
-}
-
-function yu() {
-  yay;
-  ~/dotfiles/update.sh;
 }
 
 function gti() {
@@ -57,19 +67,19 @@ function gti() {
 function gtaa() {
   files=$(gti);
   if [ -n "$files" ]; then
-    echo "Over 100M files detected.";
-    echo -n "Add the files to .gitignore file? (y/n)";
+    echo -e "\033[1;31mOver 100M files detected.\033[0m";
+    echo -ne "\033[1;32mAdd the files to .gitignore file? (y/N)\033[0m";
     read answer;
     if [ "$answer" = "y" ]; then
       gti >> .gitignore;
-    fi
-    if [ "$answer" = "n" ]; then
-      echo "Please remove the files and try again.";
+    else
+      echo "\033[31mPlease remove the files and try again.\033[0m";
       return 1;
     fi
   fi
   git add --all;
 }
+
 
 eval "$(starship init zsh)"
 
