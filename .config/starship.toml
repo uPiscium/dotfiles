@@ -91,7 +91,7 @@ style = 'fg:#00FF00 bg:#000000'
 [directory]
 style = "fg:#000000 bg:#880000"
 format = "[ $path ]($style)"
-truncation_length = 3
+truncation_length = 2
 truncation_symbol = "…/"
 
 [directory.substitutions]

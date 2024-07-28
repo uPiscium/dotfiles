@@ -28,7 +28,7 @@ return {
         popup_border_style = "rounded",
         window = {
           position = "left",
-          width = 40,
+          width = 30,
           mapping_options = {
             noremap = true,
             nowait = true,
@@ -92,7 +92,6 @@ return {
             hide_gitignored = false,
             hide_by_name = {
               "node_modules",
-              ".git",
               ".cache",
               ".DS_Store",
             },
