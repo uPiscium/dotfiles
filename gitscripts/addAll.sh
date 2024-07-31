@@ -1,6 +1,6 @@
-files=$(find . -size +100M);
+set files=$(find . -size +100M);
 cat .gitignore | grep -v '^#' | grep -v '^$' | while read line; do
-  files=$(echo "$files" | grep "$line");
+  set files=$(echo "$files" | grep -v "$line");
 done
 if [ -n "$files" ]; then
   echo -e "\033[1;31mOver 100M files detected.\033[0m";
@@ -13,8 +13,10 @@ if [ -n "$files" ]; then
     for file in $files; do
       echo "${file}" >> .gitignore;
     done
+    git add --all;
   else
     echo -e "\033[31mPlease remove the files and try again.\033[0m";
   fi
+else
+  git add --all;
 fi
-git add --all;
