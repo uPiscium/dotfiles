@@ -21,9 +21,12 @@ cd ~/
 rm -rf yay
 yay -Syu
 
+rm -rf ~/Desktop
+
 mkdir Documents
 mkdir Downloads
 mkdir Musics
+mkdir Pictures
 
 cd ~/dotfiles
 cat ./packages.list | yay -S --noconfirm -
