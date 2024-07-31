@@ -5,6 +5,11 @@ autoload -U compinit && compinit
 
 source "$HOME/.rye/env"
 
+# functions
+function uzp() {
+  unzip "$1".zip -d "$1";
+}
+
 function YAY_WRAPPER() {
   command yay $@;
   echo "";
@@ -20,21 +25,7 @@ function YAY_WRAPPER() {
 }
 
 # common aliases
-alias gta='git add'
-alias gtr='git reset'
-alias gts='git status'
-alias gtw='git switch'
-alias gtg='git log --graph --oneline --decorate'
-alias gtp='git push'
-alias gtb='git branch'
-alias gtl='git pull'
-alias gtc='git commit -m'
-alias gtcc='git rm -r --cached .'
-alias ghrc='gh repo clone'
-alias ghpc='gh pr create -B'
-alias ghpm='gh pr merge'
-alias ghlc='gh release create'
-alias ghll='gh release list'
+alias g='git'
 alias ip="ip -c"
 alias ls="ls --color=auto"
 alias la="ls -a"
@@ -44,42 +35,6 @@ alias i3reload="i3-msg reload"
 alias usb="sudo mount /dev/sda1 ~/usb"
 alias usbe="sudo umount /dev/sda1"
 alias yay="YAY_WRAPPER"
-
-# functions
-function uzp() {
-  unzip "$1".zip -d "$1";
-}
-
-function gtnb() {
-  gtb "$1";
-  gtp -u origin "$1";
-  gtw "$1";
-}
-
-function gti() {
-  files=$(find . -size +100M);
-  cat .gitignore | grep -v '^#' | grep -v '^$' | while read line; do
-    files=$(echo "$files" | grep -v "$line");
-  done
-  return $files;
-}
-
-function gtaa() {
-  files=$(gti);
-  if [ -n "$files" ]; then
-    echo -e "\033[1;31mOver 100M files detected.\033[0m";
-    echo -ne "\033[1;32mAdd the files to .gitignore file? (y/N)\033[0m";
-    read answer;
-    if [ "$answer" = "y" ]; then
-      gti >> .gitignore;
-    else
-      echo "\033[31mPlease remove the files and try again.\033[0m";
-      return 1;
-    fi
-  fi
-  git add --all;
-}
-
 
 eval "$(starship init zsh)"
 

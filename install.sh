@@ -35,7 +35,4 @@ sudo systemctl enable lightdm
 sudo systemctl enable acpid
 sudo systemctl enable bluetooth
 
-git config --global init.defaultBranch main
-git config --global credential.helper store
-git config --global user.email "upiscium@gmail.com"
-git config --global user.name "uPiscium"
+~/dotfiles/configureGit.sh
