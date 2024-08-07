@@ -60,6 +60,8 @@ python-matplotlib
 python-pyqt5
 ripgrep
 rye
+simplescreenrecorder
+simplescreenrecorder-debug
 sl
 sof-firmware
 starship
@@ -71,6 +73,7 @@ typst
 ufw
 unityhub
 unzip
+valgrind
 vim
 vlc
 wireplumber

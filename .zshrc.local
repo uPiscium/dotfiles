@@ -11,8 +11,11 @@ function uzp() {
 }
 
 function YAY_WRAPPER() {
-  command yay $@;
-  echo "";
+  command yay "$@";
+  xmodmap ~/.xmodmap;
+}
+
+function UPDATE_LIST() {
   echo -ne "\033[1;32mUpdate 'packages.list' ? (y/N)\033[0m";
   read answer;
   if [ "$answer" = "y" ]; then
@@ -30,11 +33,11 @@ alias ip="ip -c"
 alias ls="ls --color=auto"
 alias la="ls -a"
 alias ll="ls -l"
-alias ssr="simplescreenrecorder"
 alias i3reload="i3-msg reload"
 alias usb="sudo mount /dev/sda1 ~/usb"
 alias usbe="sudo umount /dev/sda1"
 alias yay="YAY_WRAPPER"
+alias update="UPDATE_LIST"
 
 eval "$(starship init zsh)"
 
