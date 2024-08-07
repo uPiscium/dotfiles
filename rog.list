@@ -1,7 +1,5 @@
 asusctl
-linux-g14
-linux-g14-headers
-nvidia-dkms
+nvidia
 nvidia-settings
 nvtop
 rog-control-center
