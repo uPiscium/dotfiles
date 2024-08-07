@@ -10,9 +10,16 @@ function uzp() {
   unzip "$1".zip -d "$1";
 }
 
+function PACMAN_WRAPPER() {
+  command pacman "$@";
+  xmodmap ~/.xmodmap;
+  setxkbmap -option ctrl:nocaps
+}
+
 function YAY_WRAPPER() {
   command yay "$@";
   xmodmap ~/.xmodmap;
+  setxkbmap -option ctrl:nocaps
 }
 
 function UPDATE_LIST() {
@@ -25,6 +32,7 @@ function UPDATE_LIST() {
     echo "Skipping 'packages.list' update.";
   fi
   xmodmap ~/.xmodmap;
+  setxkbmap -option ctrl:nocaps
 }
 
 # common aliases
@@ -36,6 +44,7 @@ alias ll="ls -l"
 alias i3reload="i3-msg reload"
 alias usb="sudo mount /dev/sda1 ~/usb"
 alias usbe="sudo umount /dev/sda1"
+alias pacman="PACMAN_WRAPPER"
 alias yay="YAY_WRAPPER"
 alias update="UPDATE_LIST"
 
