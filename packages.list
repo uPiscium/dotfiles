@@ -30,6 +30,7 @@ gst-plugin-pipewire
 gufw
 i3-wm
 i3blocks
+i3lock-fancy-git
 i3status
 intel-ucode
 kitty
@@ -63,6 +64,7 @@ power-profiles-daemon
 python-matplotlib
 python-pyqt5
 ripgrep
+rofi
 rogauracore-git
 rye
 simplescreenrecorder
@@ -85,6 +87,7 @@ xclip
 xidlehook
 xorg-xinput
 xournalpp
+xss-lock
 yay
 yazi
 zellij

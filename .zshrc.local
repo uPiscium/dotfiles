@@ -12,24 +12,24 @@ function uzp() {
 
 function PACMAN_WRAPPER() {
   command pacman "$@";
-  xmodmap ~/.xmodmap;
   setxkbmap -option ctrl:nocaps
+  xmodmap ~/.xmodmap;
 }
 
 function YAY_WRAPPER() {
   command yay "$@";
-  xmodmap ~/.xmodmap;
   setxkbmap -option ctrl:nocaps
+  xmodmap ~/.xmodmap;
 }
 
 function UPDATE_LIST() {
-  echo -ne "\033[1;32mUpdate 'packages.list' ? (y/N)\033[0m";
+  echo -ne "\033[1;32mUpdate 'packages.list' ? (Y/n)\033[0m";
   read answer;
-  if [ "$answer" = "y" ]; then
+  if [ "$answer" = "n" ]; then
+    echo "Skipping 'packages.list' update.";
+  else 
     command yay -Syu;
     ~/dotfiles/update.sh;
-  else 
-    echo "Skipping 'packages.list' update.";
   fi
   xmodmap ~/.xmodmap;
   setxkbmap -option ctrl:nocaps

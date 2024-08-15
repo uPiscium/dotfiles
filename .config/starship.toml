@@ -32,13 +32,7 @@ style = 'fg:#FF0000 bg:#000000'
 threshold = 20
 charging_symbol = '󰂆 '
 discharging_symbol = '󰁻 '
-style = 'fg:#AAAA00 bg:#000000'
-
-[[battery.display]]
-threshold = 25
-charging_symbol = '󰂇 '
-discharging_symbol = '󰁼 '
-style = 'fg:#CCCC00 bg:#000000'
+style = 'fg:#FF0000 bg:#000000'
 
 [[battery.display]]
 threshold = 30
@@ -50,7 +44,7 @@ style = 'fg:#FFFF00 bg:#000000'
 threshold = 40
 charging_symbol = '󰂈 '
 discharging_symbol = '󰁽 '
-style = 'fg:#009900 bg:#000000'
+style = 'fg:#FFF900 bg:#000000'
 
 [[battery.display]]
 threshold = 50

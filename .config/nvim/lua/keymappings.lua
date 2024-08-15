@@ -54,8 +54,15 @@ keymap.set("n", "<Space>tt", "<cmd>lua tig_toggle()<CR>", { noremap = true, sile
 keymap.set("t", "<C-n>", "<cmd>ToggleTerm<CR>", { noremap = true, silent = true })
 
 -- camel-case-motion
-keymap.set("n", "w", "<Plug>CamelCaseMotion_w", { noremap = false, silent = true })
-keymap.set("n", "b", "<Plug>CamelCaseMotion_b", { noremap = false, silent = true })
+keymap.set("n", "w", "<Plug>CamelCaseMotion_w", { noremap = true, silent = true })
+keymap.set("n", "b", "<Plug>CamelCaseMotion_b", { noremap = true, silent = true })
+keymap.set("n", "e", "<Plug>CamelCaseMotion_e", { noremap = true, silent = true })
+keymap.set("n", "vw", "v<Plug>CamelCaseMotion_iw", { noremap = true, silent = true })
+keymap.set("n", "vb", "v<Plug>CamelCaseMotion_ib", { noremap = true, silent = true })
+keymap.set("n", "ve", "v<Plug>CamelCaseMotion_ie", { noremap = true, silent = true })
+keymap.set("n", "dw", "d<Plug>CamelCaseMotion_w", { noremap = true, silent = true })
+keymap.set("n", "db", "d<Plug>CamelCaseMotion_b", { noremap = true, silent = true })
+keymap.set("n", "de", "d<Plug>CamelCaseMotion_e", { noremap = true, silent = true })
 
 -- nvim-dap
 local status, dap = pcall(require, "dap")
