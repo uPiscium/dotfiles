@@ -78,8 +78,13 @@ bindsym $mod+F11 exec "i3lock-fancy"
 
 # launch chrome
 bindsym $mod+g exec --no-startup-id google-chrome-stable
+# main profile
+bindsym $mod+i exec --no-startup-id google-chrome-stable --profile-directory="Profile 3"
+# work profile
 bindsym $mod+u exec --no-startup-id google-chrome-stable --profile-directory="Default"
-bindsym $mod+Shift+u exec --no-startup-id google-chrome-stable --profile-directory="Profile 3"
+# university profile
+bindsym $mod+Shift+u exec --no-startup-id google-chrome-stable --profile-directory="Profile 4"
+
 
 # toggle touchpad
 bindsym $mod+space exec --no-startup-id "~/dotfiles/toggleTouchpad.sh"

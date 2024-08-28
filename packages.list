@@ -7,8 +7,10 @@ bluez
 bluez-utils
 bottom
 brightnessctl
+clion
 cmake
 cmake-format
+curseforge
 discord
 dmenu
 dunst
@@ -59,10 +61,12 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+pnpm
 polybar
 power-profiles-daemon
 python-matplotlib
 python-pyqt5
+realvnc-vnc-viewer
 ripgrep
 rofi
 rogauracore-git
@@ -72,8 +76,10 @@ sl
 sof-firmware
 starship
 steam
+tailscale
 tree
 tree-sitter-cli
+ttf-cascadia-code-nerd
 ttf-hackgen
 typst
 ufw

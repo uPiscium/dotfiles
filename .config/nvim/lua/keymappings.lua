@@ -33,8 +33,8 @@ keymap.set("n", "s", "<Plug>Lightspeed_s", { noremap = true, silent = true })
 
 -- coc
 keymap.set("i", "<C-Space>", "coc#refresh()", { expr = true, silent = true })    -- trigger completion
-keymap.set("n", "<Leader>rn", "<Plug>(coc-rename)", { silent = true })           -- rename
-keymap.set("n", "<Leader>fm", "<Plug>(coc-format)", { silent = true })           -- format
+keymap.set("n", "<C-Space><C-r>n", "<Plug>(coc-rename)", { silent = true })           -- rename
+keymap.set("n", "<C-Space><C-f>m", "<Plug>(coc-format)", { silent = true })           -- format
 keymap.set("n", "<Leader>c", "<Plug>(coc-codeaction-cursor)", { silent = true }) -- code action
 keymap.set("n", "<Leader>a", "<Plug>(coc-codeaction)", { silent = true })        -- code action
 keymap.set("n", "gr", "<Plug>(coc-references)", { silent = true })               -- references

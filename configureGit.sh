@@ -5,6 +5,7 @@ git config --global user.name "uPiscium"
 
 git config --global alias.a "add"
 git config --global alias.aa "!sh ~/dotfiles/gitscripts/addAll.sh"
+git config --global alias.b "branch"
 git config --global alias.c "commit -m"
 git config --global alias.cc "rm -r --cached ."
 git config --global alias.g "log --graph --oneline --decorate"

@@ -47,6 +47,7 @@ alias usbe="sudo umount /dev/sda1"
 alias pacman="PACMAN_WRAPPER"
 alias yay="YAY_WRAPPER"
 alias update="UPDATE_LIST"
+alias reload="source ~/.zshrc && setxkbmap -option ctrl:nocaps && xmodmap ~/.xmodmap"
 
 eval "$(starship init zsh)"
 

@@ -37,3 +37,11 @@ setopt EXTENDED_HISTORY
 #eval "$(keychain --eval --quiet --noask id_ed25519)"
 
 #export GPG_TTY=$(tty) Created by newuser for 5.9
+
+# pnpm
+export PNPM_HOME="/home/uPiscium/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
