@@ -31,6 +31,18 @@ function UPDATE_LIST() {
     command yay -Syu;
     ~/dotfiles/update.sh;
   fi
+
+  cd ~/dotfiles;
+  echo -ne "\033[1;32mPush diffs to 'git' ? (Y/n)\033[0m";
+  read answer;
+  if [ "$answer" = "n" ]; then
+    echo "Skipping 'git' push.";
+  else
+    git add .;
+    git commit -m "update";
+    git push;
+  fi
+
   xmodmap ~/.xmodmap;
   setxkbmap -option ctrl:nocaps
 }

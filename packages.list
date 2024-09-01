@@ -45,6 +45,7 @@ linux
 linux-firmware
 linux-headers
 man-db
+nano
 neofetch
 neovim
 network-manager-applet
@@ -77,6 +78,7 @@ sof-firmware
 starship
 steam
 tailscale
+termpdf-git
 tree
 tree-sitter-cli
 ttf-cascadia-code-nerd

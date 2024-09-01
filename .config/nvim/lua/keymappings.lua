@@ -32,16 +32,16 @@ keymap.set("n", "<Space>r", "<cmd>Telescope live_grep<CR>", { noremap = true, si
 keymap.set("n", "s", "<Plug>Lightspeed_s", { noremap = true, silent = true })
 
 -- coc
-keymap.set("i", "<C-Space>", "coc#refresh()", { expr = true, silent = true })    -- trigger completion
-keymap.set("n", "<C-Space><C-r>n", "<Plug>(coc-rename)", { silent = true })           -- rename
-keymap.set("n", "<C-Space><C-f>m", "<Plug>(coc-format)", { silent = true })           -- format
-keymap.set("n", "<Leader>c", "<Plug>(coc-codeaction-cursor)", { silent = true }) -- code action
-keymap.set("n", "<Leader>a", "<Plug>(coc-codeaction)", { silent = true })        -- code action
-keymap.set("n", "gr", "<Plug>(coc-references)", { silent = true })               -- references
+-- keymap.set("i", "<C-Space>", "coc#refresh()", { expr = true, silent = true })    -- trigger completion
+keymap.set("n", "gn", "<Plug>(coc-rename)", { silent = true })           -- rename
+keymap.set("n", "gm", "<Plug>(coc-format)", { silent = true })           -- format
+-- keymap.set("n", "<Leader>c", "<Plug>(coc-codeaction-cursor)", { silent = true }) -- code action
+-- keymap.set("n", "<Leader>a", "<Plug>(coc-codeaction)", { silent = true })        -- code action
+-- keymap.set("n", "gr", "<Plug>(coc-references)", { silent = true })               -- references
 keymap.set("n", "gd", "<Plug>(coc-definition)", { silent = true })               -- go to definition
-keymap.set("n", "gy", "<Plug>(coc-type-definition)", { silent = true })          -- go to type definition
-keymap.set("n", "[g", "<Plug>(coc-diagnostic-prev)", { silent = true })          -- go to previous diagnostic
-keymap.set("n", "]g", "<Plug>(coc-diagnostic-next)", { silent = true })          -- go to next diagnostic
+keymap.set("n", "gt", "<Plug>(coc-type-definition)", { silent = true })          -- go to type definition
+keymap.set("n", "GE", "<Plug>(coc-diagnostic-prev)", { silent = true })          -- go to previous diagnostic
+keymap.set("n", "ge", "<Plug>(coc-diagnostic-next)", { silent = true })          -- go to next diagnostic
 
 -- markdown-preview
 keymap.set("n", "<C-m>d", "<Plug>MarkdownPreviewToggle", { noremap = false, silent = true })
@@ -54,15 +54,15 @@ keymap.set("n", "<Space>tt", "<cmd>lua tig_toggle()<CR>", { noremap = true, sile
 keymap.set("t", "<C-n>", "<cmd>ToggleTerm<CR>", { noremap = true, silent = true })
 
 -- camel-case-motion
-keymap.set("n", "w", "<Plug>CamelCaseMotion_w", { noremap = true, silent = true })
-keymap.set("n", "b", "<Plug>CamelCaseMotion_b", { noremap = true, silent = true })
-keymap.set("n", "e", "<Plug>CamelCaseMotion_e", { noremap = true, silent = true })
-keymap.set("n", "vw", "v<Plug>CamelCaseMotion_iw", { noremap = true, silent = true })
-keymap.set("n", "vb", "v<Plug>CamelCaseMotion_ib", { noremap = true, silent = true })
-keymap.set("n", "ve", "v<Plug>CamelCaseMotion_ie", { noremap = true, silent = true })
-keymap.set("n", "dw", "d<Plug>CamelCaseMotion_w", { noremap = true, silent = true })
-keymap.set("n", "db", "d<Plug>CamelCaseMotion_b", { noremap = true, silent = true })
-keymap.set("n", "de", "d<Plug>CamelCaseMotion_e", { noremap = true, silent = true })
+keymap.set("n", "cw", "<Plug>CamelCaseMotion_w", { noremap = true, silent = true })
+-- keymap.set("n", "cb", "<Plug>CamelCaseMotion_b", { noremap = true, silent = true })
+-- keymap.set("n", "ce", "<Plug>CamelCaseMotion_e", { noremap = true, silent = true })
+keymap.set("n", "ycw", "v<Plug>CamelCaseMotion_iwy", { noremap = true, silent = true })
+-- keymap.set("n", "vb", "v<Plug>CamelCaseMotion_ib", { noremap = true, silent = true })
+-- keymap.set("n", "ve", "v<Plug>CamelCaseMotion_ie", { noremap = true, silent = true })
+keymap.set("n", "dcw", "d<Plug>CamelCaseMotion_w", { noremap = true, silent = true })
+-- keymap.set("n", "dcb", "d<Plug>CamelCaseMotion_b", { noremap = true, silent = true })
+-- keymap.set("n", "de", "d<Plug>CamelCaseMotion_e", { noremap = true, silent = true })
 
 -- nvim-dap
 local status, dap = pcall(require, "dap")
