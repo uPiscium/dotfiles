@@ -45,6 +45,7 @@ linux
 linux-firmware
 linux-headers
 man-db
+mesa-utils
 nano
 neofetch
 neovim
@@ -56,6 +57,7 @@ noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
 npm
+nvidia-open
 nyancat
 ollama
 pipewire
