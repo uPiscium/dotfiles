@@ -10,6 +10,7 @@ brightnessctl
 clion
 cmake
 cmake-format
+csharp-ls
 curseforge
 discord
 dmenu
@@ -70,6 +71,7 @@ power-profiles-daemon
 python-matplotlib
 python-pyqt5
 realvnc-vnc-viewer
+rider
 ripgrep
 rofi
 rogauracore-git
@@ -100,6 +102,7 @@ xournalpp
 xss-lock
 yay
 yazi
+yt-dlp
 zellij
 zram-generator
 zsh

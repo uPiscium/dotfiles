@@ -1,14 +1,14 @@
 [Groups/0]
 # Group Name
-Name="グループ 1"
+Name="グループ 2"
 # Layout
-Default Layout=jp
+Default Layout=us
 # Default Input Method
 DefaultIM=mozc
 
 [Groups/0/Items/0]
 # Name
-Name=keyboard-jp
+Name=keyboard-us
 # Layout
 Layout=
 
@@ -18,27 +18,6 @@ Name=mozc
 # Layout
 Layout=
 
-[Groups/1]
-# Group Name
-Name="グループ 2"
-# Layout
-Default Layout=us
-# Default Input Method
-DefaultIM=mozc
-
-[Groups/1/Items/0]
-# Name
-Name=keyboard-us
-# Layout
-Layout=
-
-[Groups/1/Items/1]
-# Name
-Name=mozc
-# Layout
-Layout=
-
 [GroupOrder]
 0="グループ 2"
-1="グループ 1"
 
