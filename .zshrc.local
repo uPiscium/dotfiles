@@ -61,6 +61,7 @@ alias yay="YAY_WRAPPER"
 alias update="UPDATE_LIST"
 alias reload="source ~/.zshrc && setxkbmap -option ctrl:nocaps && xmodmap ~/.xmodmap"
 alias vi='vim'
+alias gsr='gpu-screen-recorder-gtk'
 
 eval "$(starship init zsh)"
 

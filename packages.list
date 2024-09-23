@@ -28,6 +28,8 @@ git
 github-cli
 go
 google-chrome
+gpu-screen-recorder-git
+gpu-screen-recorder-gtk-git
 grub
 gst-plugin-pipewire
 gufw
@@ -78,7 +80,7 @@ ripgrep
 rofi
 rogauracore-git
 rye
-simplescreenrecorder
+screengrab
 sl
 sof-firmware
 starship
