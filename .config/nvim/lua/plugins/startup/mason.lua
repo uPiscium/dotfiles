@@ -15,13 +15,17 @@ return {
         }
       }
     end,
-    config = function()
-      require'lspconfig'.tinymist.setup{
-        settings = {
-          exportPdf = "onType"
-        }
-      }
-    end,
+    -- config = function()
+    --   require'lspconfig'.tinymist.setup{
+    --     settings = {
+    --       exportPdf = "onType"
+    --     }
+    --   }
+    --   require'lspconfig'.glslx.setup{
+    --     settings = {
+    --     }
+    --   }
+    -- end,
   },
   {
     "williamboman/mason-lspconfig.nvim",

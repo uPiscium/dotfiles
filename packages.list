@@ -3,11 +3,11 @@ alsa-utils
 asciiquarium
 base
 base-devel
+blueman
 bluez
 bluez-utils
 bottom
 brightnessctl
-clion
 cmake
 cmake-format
 csharp-ls
@@ -36,6 +36,7 @@ i3blocks
 i3lock-fancy-git
 i3status
 intel-ucode
+jetbrains-toolbox
 kitty
 less
 libpulse
@@ -52,6 +53,7 @@ neofetch
 neovim
 network-manager-applet
 networkmanager
+ninja
 nodejs
 noto-fonts
 noto-fonts-cjk
@@ -61,6 +63,7 @@ npm
 nvidia-open
 nyancat
 ollama
+picom
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -71,7 +74,6 @@ power-profiles-daemon
 python-matplotlib
 python-pyqt5
 realvnc-vnc-viewer
-rider
 ripgrep
 rofi
 rogauracore-git
@@ -83,6 +85,7 @@ starship
 steam
 tailscale
 termpdf-git
+tig
 tree
 tree-sitter-cli
 ttf-cascadia-code-nerd
@@ -94,6 +97,7 @@ unzip
 valgrind
 vim
 vlc
+vrrtest-git
 wireplumber
 xclip
 xidlehook

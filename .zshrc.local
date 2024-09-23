@@ -60,6 +60,7 @@ alias pacman="PACMAN_WRAPPER"
 alias yay="YAY_WRAPPER"
 alias update="UPDATE_LIST"
 alias reload="source ~/.zshrc && setxkbmap -option ctrl:nocaps && xmodmap ~/.xmodmap"
+alias vi='vim'
 
 eval "$(starship init zsh)"
 
