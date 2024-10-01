@@ -1,5 +1,6 @@
 acpid
 alsa-utils
+ani-cli
 asciiquarium
 base
 base-devel
@@ -23,7 +24,6 @@ fcitx5-mozc
 fcitx5-qt
 feh
 ffmpeg
-genymotion
 git
 github-cli
 go
@@ -33,10 +33,10 @@ gpu-screen-recorder-gtk-git
 grub
 gst-plugin-pipewire
 gufw
-i3-wm
 i3blocks
 i3lock-fancy-git
 i3status
+i3-wm
 intel-ucode
 jetbrains-toolbox
 kitty
@@ -53,8 +53,8 @@ mesa-utils
 nano
 neofetch
 neovim
-network-manager-applet
 networkmanager
+network-manager-applet
 ninja
 nodejs
 noto-fonts

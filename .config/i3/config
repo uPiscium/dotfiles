@@ -90,7 +90,7 @@ bindsym $mod+i exec --no-startup-id google-chrome-stable --profile-directory="Pr
 # work profile
 bindsym $mod+u exec --no-startup-id google-chrome-stable --profile-directory="Default"
 # university profile
-bindsym $mod+Shift+u exec --no-startup-id google-chrome-stable --profile-directory="Profile 4"
+bindsym $mod+Shift+u exec --no-startup-id google-chrome-stable --profile-directory="Profile 1"
 
 
 # toggle touchpad
