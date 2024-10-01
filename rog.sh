@@ -12,3 +12,7 @@ cat ./rogyay.list | yay -S --noconfirm -
 sudo systemctl enable --now power-profiles-daemon
 sudo systemctl enable --now supergfxd
 sudo systemctl enable --now switcheroo-control
+sudo systemctl enable --now nvidia-persistenced
+sudo systemctl enable --now nvidia-suspend
+sudo systemctl enable --now nvidia-hibernate
+sudo systemctl enable --now nvidia-resume

@@ -11,6 +11,7 @@ bottom
 brightnessctl
 cmake
 cmake-format
+cpupower-gui
 csharp-ls
 curseforge
 discord
@@ -62,7 +63,6 @@ noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
 npm
-nvidia-open
 nyancat
 ollama
 picom
