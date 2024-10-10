@@ -1,6 +1,6 @@
 acpid
+adobe-source-han-serif-otc-fonts
 alsa-utils
-ani-cli
 asciiquarium
 base
 base-devel
@@ -34,11 +34,13 @@ gpu-screen-recorder-gtk-git
 grub
 gst-plugin-pipewire
 gufw
+hexedit
 i3blocks
 i3lock-fancy-git
 i3status
 i3-wm
 intel-ucode
+jdk21-openjdk
 jetbrains-toolbox
 kitty
 less
@@ -59,10 +61,11 @@ network-manager-applet
 ninja
 nodejs
 noto-fonts
-noto-fonts-cjk
+noto-fonts-cjk-otf
 noto-fonts-emoji
 noto-fonts-extra
 npm
+nvidia-prime
 nyancat
 ollama
 picom
@@ -75,6 +78,7 @@ polybar
 power-profiles-daemon
 python-matplotlib
 python-pyqt5
+qtrvsim
 realvnc-vnc-viewer
 ripgrep
 rofi
@@ -83,11 +87,13 @@ rye
 screengrab
 sl
 sof-firmware
+spike
 starship
 steam
 tailscale
 termpdf-git
 tig
+tinymist-bin
 tree
 tree-sitter-cli
 ttf-cascadia-code-nerd
@@ -100,6 +106,7 @@ valgrind
 vim
 vlc
 vrrtest-git
+wget
 wireplumber
 xclip
 xidlehook

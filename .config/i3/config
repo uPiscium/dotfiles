@@ -76,7 +76,9 @@ bindsym $mod+q kill
 # start dmenu (a program launcher)
 # bindsym $mod+d exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
-bindsym $mod+r exec "rofi -show drun"
+
+# bindsym $mod+r exec "rofi -show drun"
+bindsym $mod+r exec "prime-run rofi -show drun"
 bindsym $mod+F11 exec "i3lock-fancy -pf 'Hackgen35-Console-NF-Regular' -t 'Type password to unlock' -n"
 
 # There also is i3-dmenu-desktop which only displays appljcations shipping a
@@ -90,7 +92,7 @@ bindsym $mod+i exec --no-startup-id google-chrome-stable --profile-directory="Pr
 # work profile
 bindsym $mod+u exec --no-startup-id google-chrome-stable --profile-directory="Default"
 # university profile
-bindsym $mod+Shift+u exec --no-startup-id google-chrome-stable --profile-directory="Profile 1"
+bindsym $mod+Shift+u exec --no-startup-id google-chrome-stable --profile-directory="Profile 2"
 
 
 # toggle touchpad
