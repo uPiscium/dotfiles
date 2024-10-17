@@ -78,7 +78,7 @@ bindsym $mod+q kill
 # A more modern dmenu replacement is rofi:
 
 # bindsym $mod+r exec "rofi -show drun"
-bindsym $mod+r exec "prime-run rofi -show drun"
+bindsym $mod+r exec "rofi -show drun prime-run"
 bindsym $mod+F11 exec "i3lock-fancy -pf 'Hackgen35-Console-NF-Regular' -t 'Type password to unlock' -n"
 
 # There also is i3-dmenu-desktop which only displays appljcations shipping a

@@ -31,6 +31,7 @@ return {
 		})
 		local mason_lsp = require("mason-lspconfig")
 		local nvim_lsp = require("lspconfig")
+		nvim_lsp.jdtls.setup({})
 
 		local mason = require("mason")
 		local mason_lsp = require("mason-lspconfig")
@@ -59,7 +60,8 @@ return {
 				"mdx_analyzer",
 				"omnisharp_mono",
 				"pyright",
-				"pyright",
+				"ruff",
+				"ruff_lsp",
 				"stylelint_lsp",
 				"tailwindcss",
 				"taplo",

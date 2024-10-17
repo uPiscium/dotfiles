@@ -9,13 +9,17 @@ bluez
 bluez-utils
 bottom
 brightnessctl
+clang
 cmake
 cmake-format
 cpupower-gui
 csharp-ls
+cuda
 curseforge
 discord
 dmenu
+docker
+docker-compose
 dunst
 efibootmgr
 fcitx5
@@ -52,6 +56,9 @@ linux
 linux-firmware
 linux-headers
 man-db
+maven
+mecab-git
+mecab-ipadic
 mesa-utils
 nano
 neofetch
@@ -76,6 +83,7 @@ pipewire-pulse
 pnpm
 polybar
 power-profiles-daemon
+python-cupy
 python-matplotlib
 python-pyqt5
 qtrvsim
