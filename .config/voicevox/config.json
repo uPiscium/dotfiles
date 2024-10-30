@@ -1,0 +1,1248 @@
+{
+  "inheritAudioInfo": true,
+  "activePointScrollMode": "OFF",
+  "savingSetting": {
+    "fileEncoding": "UTF-8",
+    "fileNamePattern": "",
+    "fixedExportEnabled": false,
+    "avoidOverwrite": false,
+    "fixedExportDir": "",
+    "exportLab": false,
+    "exportText": false,
+    "outputStereo": false,
+    "audioOutputDevice": "",
+    "songTrackFileNamePattern": ""
+  },
+  "hotkeySettings": [
+    {
+      "action": "音声書き出し",
+      "combination": "Ctrl E"
+    },
+    {
+      "action": "選択音声を書き出し",
+      "combination": "E"
+    },
+    {
+      "action": "音声を繋げて書き出し",
+      "combination": ""
+    },
+    {
+      "action": "再生/停止",
+      "combination": "Space"
+    },
+    {
+      "action": "連続再生/停止",
+      "combination": "Shift Space"
+    },
+    {
+      "action": "ｱｸｾﾝﾄ欄を表示",
+      "combination": "1"
+    },
+    {
+      "action": "ｲﾝﾄﾈｰｼｮﾝ欄を表示",
+      "combination": "2"
+    },
+    {
+      "action": "長さ欄を表示",
+      "combination": "3"
+    },
+    {
+      "action": "テキスト欄を追加",
+      "combination": "Shift Enter"
+    },
+    {
+      "action": "テキスト欄を複製",
+      "combination": "Ctrl D"
+    },
+    {
+      "action": "テキスト欄を削除",
+      "combination": "Shift Delete"
+    },
+    {
+      "action": "テキスト欄からフォーカスを外す",
+      "combination": "Escape"
+    },
+    {
+      "action": "テキスト欄にフォーカスを戻す",
+      "combination": "Enter"
+    },
+    {
+      "action": "元に戻す",
+      "combination": "Ctrl Z"
+    },
+    {
+      "action": "やり直す",
+      "combination": "Ctrl Y"
+    },
+    {
+      "action": "新規プロジェクト",
+      "combination": "Ctrl N"
+    },
+    {
+      "action": "プロジェクトを名前を付けて保存",
+      "combination": "Ctrl Shift S"
+    },
+    {
+      "action": "プロジェクトを上書き保存",
+      "combination": "Ctrl S"
+    },
+    {
+      "action": "プロジェクトを読み込む",
+      "combination": "Ctrl O"
+    },
+    {
+      "action": "テキストを読み込む",
+      "combination": ""
+    },
+    {
+      "action": "全体のイントネーションをリセット",
+      "combination": "Ctrl G"
+    },
+    {
+      "action": "選択中のアクセント句のイントネーションをリセット",
+      "combination": "R"
+    },
+    {
+      "action": "コピー",
+      "combination": "Ctrl C"
+    },
+    {
+      "action": "切り取り",
+      "combination": "Ctrl X"
+    },
+    {
+      "action": "貼り付け",
+      "combination": "Ctrl V"
+    },
+    {
+      "action": "すべて選択",
+      "combination": "Ctrl A"
+    },
+    {
+      "action": "選択解除",
+      "combination": "Escape"
+    },
+    {
+      "action": "1番目のキャラクターを選択",
+      "combination": "Ctrl 1"
+    },
+    {
+      "action": "2番目のキャラクターを選択",
+      "combination": "Ctrl 2"
+    },
+    {
+      "action": "3番目のキャラクターを選択",
+      "combination": "Ctrl 3"
+    },
+    {
+      "action": "4番目のキャラクターを選択",
+      "combination": "Ctrl 4"
+    },
+    {
+      "action": "5番目のキャラクターを選択",
+      "combination": "Ctrl 5"
+    },
+    {
+      "action": "6番目のキャラクターを選択",
+      "combination": "Ctrl 6"
+    },
+    {
+      "action": "7番目のキャラクターを選択",
+      "combination": "Ctrl 7"
+    },
+    {
+      "action": "8番目のキャラクターを選択",
+      "combination": "Ctrl 8"
+    },
+    {
+      "action": "9番目のキャラクターを選択",
+      "combination": "Ctrl 9"
+    },
+    {
+      "action": "10番目のキャラクターを選択",
+      "combination": "Ctrl 0"
+    }
+  ],
+  "toolbarSetting": [
+    "PLAY_CONTINUOUSLY",
+    "STOP",
+    "EXPORT_AUDIO_SELECTED",
+    "EMPTY",
+    "UNDO",
+    "REDO"
+  ],
+  "engineSettings": {
+    "074fc39e-678b-4c13-8916-ffca8d505d1d": {
+      "useGpu": false,
+      "outputSamplingRate": "engineDefault"
+    }
+  },
+  "userCharacterOrder": [
+    "7ffcb7ce-00ec-4bdc-82cd-45a8889e43ff",
+    "388f246b-8c41-4ac1-8e2d-5d79f3ff56d9",
+    "35b2c544-660e-401e-b503-0e14c635303a",
+    "3474ee95-c274-47f9-aa1a-8322163d96f1",
+    "b1a81618-b27b-40d2-b0ea-27a9ad408c4b",
+    "c30dc15a-0992-4f8d-8bb8-ad3b314e6a6f",
+    "e5020595-5c5d-4e87-b849-270a518d0dcf",
+    "4f51116a-d9ee-4516-925d-21f183e2afad",
+    "8eaad775-3119-417e-8cf4-2a10bfd592c8",
+    "481fb609-6446-4870-9f46-90c4dd623403",
+    "9f3ee141-26ad-437e-97bd-d22298d02ad2",
+    "1a17ca16-7ee5-4ea5-b191-2f02ace24d21",
+    "67d5d8da-acd7-4207-bb10-b5542d3a663b",
+    "0f56c2f2-644c-49c9-8989-94e11f7129d0",
+    "044830d2-f23b-44d6-ac0d-b5d733caa900",
+    "468b8e94-9da4-4f7a-8715-a22a48844f9e",
+    "0693554c-338e-4790-8982-b9c6d476dc69",
+    "a8cc6d22-aad0-4ab8-bf1e-2f843924164a",
+    "882a636f-3bac-431a-966d-c5e6bba9f949",
+    "471e39d2-fb11-4c8c-8d89-4b322d2498e0",
+    "0acebdee-a4a5-4e12-a695-e19609728e30",
+    "7d1e7ba7-f957-40e5-a3fc-da49f769ab65",
+    "ba5d2428-f7e0-4c20-ac41-9dd56e9178b4",
+    "00a5c10c-d3bd-459f-83fd-43180b521a44",
+    "c20a2254-0349-4470-9fc8-e5c0f8cf3404",
+    "1f18ffc3-47ea-4ce0-9829-0576d03a7ec8",
+    "04dbd989-32d0-40b4-9e71-17c920f2a8a9",
+    "dda44ade-5f9c-4a3a-9d2c-2a976c7476d9",
+    "287aa49f-e56b-4530-a469-855776c84a8d",
+    "97a4af4b-086e-4efd-b125-7ae2da85e697",
+    "0ebe2c7d-96f3-4f0e-a2e3-ae13fe27c403"
+  ],
+  "defaultStyleIds": [],
+  "presets": {
+    "items": {
+      "d555b47c-1584-46e0-8e70-8e75ccea1d12": {
+        "name": "デフォルト：四国めたん（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "89bae4b3-f51a-4ec2-b85b-1fcf488c77d4": {
+        "name": "デフォルト：四国めたん（あまあま）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "7a5e1389-4d9a-4ef2-8bcb-202f39a9f2c7": {
+        "name": "デフォルト：四国めたん（ツンツン）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "ebeb4d2f-bcbe-4152-a9ce-ea4d1f4c4d7f": {
+        "name": "デフォルト：四国めたん（セクシー）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "cd467548-74c6-4e2d-944d-70f597af16a2": {
+        "name": "デフォルト：四国めたん（ささやき）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "f9f7089f-be9c-4870-adce-7ff38541e35e": {
+        "name": "デフォルト：四国めたん（ヒソヒソ）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "d8415251-6c0c-4eb1-85fd-476e58aea00f": {
+        "name": "デフォルト：ずんだもん（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "e5b560be-492d-4422-87d7-15f900627215": {
+        "name": "デフォルト：ずんだもん（あまあま）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "319a70e0-b340-4458-83fb-a1e5ec1ac3cb": {
+        "name": "デフォルト：ずんだもん（ツンツン）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "dcd4a1ae-2066-483d-8f00-5c9ab0a22ace": {
+        "name": "デフォルト：ずんだもん（セクシー）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "c226da61-eb9a-4d5a-afdf-2ddddfa0b8cc": {
+        "name": "デフォルト：ずんだもん（ささやき）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "4bcac901-7875-408b-87e1-5eefa1ad6ca9": {
+        "name": "デフォルト：ずんだもん（ヒソヒソ）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "6e33c178-31f9-4992-9f61-f94e4ee4f3d7": {
+        "name": "デフォルト：ずんだもん（ヘロヘロ）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "07e30c5d-91db-439a-a589-328d655781e6": {
+        "name": "デフォルト：ずんだもん（なみだめ）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "17b0d90e-c9c3-4bb5-b68c-3b044b7a01be": {
+        "name": "デフォルト：春日部つむぎ（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "5bd597e5-fc7c-49f6-8ec7-c2f71911ed83": {
+        "name": "デフォルト：雨晴はう（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "2cc6dd1d-c2bf-4eb4-a83e-965bc4019852": {
+        "name": "デフォルト：波音リツ（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "33ab256d-9301-4bea-bff3-b847576c542e": {
+        "name": "デフォルト：波音リツ（クイーン）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "3e0ee278-5922-47ab-a286-fbd7c56155fb": {
+        "name": "デフォルト：玄野武宏（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "87316abf-21df-4ade-9518-0c075cbf6085": {
+        "name": "デフォルト：玄野武宏（喜び）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "9ac470ea-ac70-40e1-8b0f-4a09f4e61ef7": {
+        "name": "デフォルト：玄野武宏（ツンギレ）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "96263fea-2a7a-4cc8-83fb-7a7877b4a845": {
+        "name": "デフォルト：玄野武宏（悲しみ）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "bd1ff575-58cb-4caa-a1c7-827d8d14cbe1": {
+        "name": "デフォルト：白上虎太郎（ふつう）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "958bfcc2-bca8-4cf9-ba5c-a28b42133b77": {
+        "name": "デフォルト：白上虎太郎（わーい）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "67ff748a-3470-4c57-968f-7d77710bc885": {
+        "name": "デフォルト：白上虎太郎（びくびく）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "0cd3b140-42fd-46f0-a7ab-73ea71cdb816": {
+        "name": "デフォルト：白上虎太郎（おこ）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "ebfb021f-92fc-4fce-a358-b52688747ff6": {
+        "name": "デフォルト：白上虎太郎（びえーん）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "20f273d0-47e8-4eb2-93f4-5ddcafbdce6e": {
+        "name": "デフォルト：青山龍星（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "abafba15-90f7-4e33-8647-a0cd6c4d861c": {
+        "name": "デフォルト：青山龍星（熱血）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "940d724e-ba27-4fef-b312-e342b331027d": {
+        "name": "デフォルト：青山龍星（不機嫌）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "af4ef907-ce0c-42e8-b275-dd715594bdf9": {
+        "name": "デフォルト：青山龍星（喜び）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "61fac46c-5ad8-4d52-8f35-be2940dc81a9": {
+        "name": "デフォルト：青山龍星（しっとり）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "903a66ef-b2a9-45a4-b636-24bc39736e4c": {
+        "name": "デフォルト：青山龍星（かなしみ）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "f66a9207-9f29-4e3d-95fe-2108eadd420c": {
+        "name": "デフォルト：青山龍星（囁き）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "3f4efc96-85d5-4e8b-bda5-a5b63851f68f": {
+        "name": "デフォルト：冥鳴ひまり（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "b83be8cb-7190-4e6c-8189-2bcb98ee4df2": {
+        "name": "デフォルト：九州そら（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "5604f1ce-a561-4a46-b623-8d099ab60bed": {
+        "name": "デフォルト：九州そら（あまあま）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "18b9f91f-82c4-4ff6-b1e8-976f376a1ed2": {
+        "name": "デフォルト：九州そら（ツンツン）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "e37a5fd0-955b-4999-9b0d-dc30e6fb1ac9": {
+        "name": "デフォルト：九州そら（セクシー）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "ea387724-4ff6-485a-9159-0dcabc8e5572": {
+        "name": "デフォルト：九州そら（ささやき）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "042bba71-ad44-49ae-843e-9a341e9a0066": {
+        "name": "デフォルト：もち子さん（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "0d7260ac-1519-49cc-8848-e83d26b6645d": {
+        "name": "デフォルト：もち子さん（セクシー／あん子）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "698fa56f-20e8-4c47-90ca-997a973f1a0b": {
+        "name": "デフォルト：もち子さん（泣き）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "0331a92f-c7fe-41e7-8e0a-5f80436a0025": {
+        "name": "デフォルト：もち子さん（怒り）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "8f293aeb-aca3-4174-93ab-3654b44e0528": {
+        "name": "デフォルト：もち子さん（喜び）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "74c25701-fcd7-4859-b354-d6de6623842a": {
+        "name": "デフォルト：もち子さん（のんびり）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "bc371111-c928-4237-9d5e-92921e06f2b2": {
+        "name": "デフォルト：剣崎雌雄（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "0e941546-f577-4bde-a96b-27a188cf3431": {
+        "name": "デフォルト：WhiteCUL（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "d32f7140-44a0-44ed-9dc1-6f3796402267": {
+        "name": "デフォルト：WhiteCUL（たのしい）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "059152fe-3098-4dc5-a015-503756e5e3dd": {
+        "name": "デフォルト：WhiteCUL（かなしい）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "6701302f-9dc0-40f9-956d-f9f93684364b": {
+        "name": "デフォルト：WhiteCUL（びえーん）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "c63b76c8-130e-4922-bd47-9f6a6beb3692": {
+        "name": "デフォルト：後鬼（人間ver.）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "706d2f5c-94e4-4f95-a8d6-b24f27930225": {
+        "name": "デフォルト：後鬼（ぬいぐるみver.）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "61f5505c-aa16-4fef-ae19-1de74a891221": {
+        "name": "デフォルト：後鬼（人間（怒り）ver.）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "66f2ad6b-9546-4b1b-abd2-a0295299fd2b": {
+        "name": "デフォルト：後鬼（鬼ver.）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "4f0b4e34-c49f-40ce-b19b-9b17cd12706b": {
+        "name": "デフォルト：No.7（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "f6cc3a47-9115-4704-aaac-1a791a398604": {
+        "name": "デフォルト：No.7（アナウンス）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "3fa90890-8ebe-4b58-a7f7-c4ea52dee0b6": {
+        "name": "デフォルト：No.7（読み聞かせ）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "24d1272b-bffc-4e58-a87e-6ec5c179381f": {
+        "name": "デフォルト：ちび式じい（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "b1317144-02c7-42ea-8354-11625897632e": {
+        "name": "デフォルト：櫻歌ミコ（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "1abcf6f6-f9e0-4e89-ad29-61913046515f": {
+        "name": "デフォルト：櫻歌ミコ（第二形態）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "6d2d9631-20cd-4901-a6c0-bc47993bf453": {
+        "name": "デフォルト：櫻歌ミコ（ロリ）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "6f816221-f584-4dcf-9f88-a8807afbd869": {
+        "name": "デフォルト：小夜/SAYO（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "a56603a8-b716-47fe-bdb0-34e6fbccf15e": {
+        "name": "デフォルト：ナースロボ＿タイプＴ（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "a6396a01-bf4c-4241-8241-d2837de0bf0c": {
+        "name": "デフォルト：ナースロボ＿タイプＴ（楽々）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "ead4dd6f-8cd9-4d57-bce0-8cc8dc3c4cfd": {
+        "name": "デフォルト：ナースロボ＿タイプＴ（恐怖）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "bd51dc3f-4f53-42f9-bbc5-26b249fd044c": {
+        "name": "デフォルト：ナースロボ＿タイプＴ（内緒話）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "2bfe6980-de1b-48f2-be16-c6240fde5b21": {
+        "name": "デフォルト：†聖騎士 紅桜†（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "8458f86d-aecd-4c37-8776-6f5d69fc8932": {
+        "name": "デフォルト：雀松朱司（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "d6be7923-4504-4d26-8b25-9fa436758638": {
+        "name": "デフォルト：麒ヶ島宗麟（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "a324332f-47cc-4019-8d03-696d0d8a8a06": {
+        "name": "デフォルト：春歌ナナ（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "822c1a80-e71a-45e8-bd4f-8214007d6351": {
+        "name": "デフォルト：猫使アル（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "c067c4ae-2e9f-4b9d-b372-3559cc0955e2": {
+        "name": "デフォルト：猫使アル（おちつき）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "bf1592cf-15da-40ac-85b2-0fcde18b0a14": {
+        "name": "デフォルト：猫使アル（うきうき）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "e4680dca-ba34-4c7d-9fec-bb4b41af74bd": {
+        "name": "デフォルト：猫使ビィ（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "c79d646d-1e3a-4229-a516-b5d16e33fa34": {
+        "name": "デフォルト：猫使ビィ（おちつき）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "12d80fa1-22c9-4cc2-8456-90b5de596344": {
+        "name": "デフォルト：猫使ビィ（人見知り）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "f9c1f4b5-ed11-4cbc-aab7-16fdf7afc66e": {
+        "name": "デフォルト：中国うさぎ（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "115b03c2-a041-46e6-8af5-a08a1bc3ed86": {
+        "name": "デフォルト：中国うさぎ（おどろき）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "fbb36a9a-9618-4400-bea2-1109251bc4b8": {
+        "name": "デフォルト：中国うさぎ（こわがり）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "811b0c9f-8838-4e4f-89b5-0b5812707990": {
+        "name": "デフォルト：中国うさぎ（へろへろ）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "673f1b51-9ece-4db9-813a-2b29873a5763": {
+        "name": "デフォルト：栗田まろん（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "d5854734-358f-489c-bff5-4d1c6d444b2f": {
+        "name": "デフォルト：あいえるたん（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "b3a35b2a-d87f-4264-b583-95500f0af887": {
+        "name": "デフォルト：満別花丸（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "4a9176f8-54d4-401c-9461-f6ed0f7e5e3f": {
+        "name": "デフォルト：満別花丸（元気）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "0851835b-0d95-42ed-84a4-81dd79fe6068": {
+        "name": "デフォルト：満別花丸（ささやき）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "e7477927-78f3-4bfa-b283-01b4a6336526": {
+        "name": "デフォルト：満別花丸（ぶりっ子）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "8494499b-9670-4bc9-8e50-b77269f77267": {
+        "name": "デフォルト：満別花丸（ボーイ）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "14708d76-16e3-4dac-b76c-fbd9ef0ddf15": {
+        "name": "デフォルト：琴詠ニア（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      },
+      "20599ff9-b5dc-44d3-815c-59607d1aaa0f": {
+        "name": "デフォルト：Voidoll（ノーマル）",
+        "speedScale": 1,
+        "pitchScale": 0,
+        "intonationScale": 1,
+        "volumeScale": 1,
+        "prePhonemeLength": 0.1,
+        "postPhonemeLength": 0.1
+      }
+    },
+    "keys": [
+      "20599ff9-b5dc-44d3-815c-59607d1aaa0f",
+      "14708d76-16e3-4dac-b76c-fbd9ef0ddf15",
+      "8494499b-9670-4bc9-8e50-b77269f77267",
+      "e7477927-78f3-4bfa-b283-01b4a6336526",
+      "0851835b-0d95-42ed-84a4-81dd79fe6068",
+      "4a9176f8-54d4-401c-9461-f6ed0f7e5e3f",
+      "b3a35b2a-d87f-4264-b583-95500f0af887",
+      "d5854734-358f-489c-bff5-4d1c6d444b2f",
+      "673f1b51-9ece-4db9-813a-2b29873a5763",
+      "811b0c9f-8838-4e4f-89b5-0b5812707990",
+      "fbb36a9a-9618-4400-bea2-1109251bc4b8",
+      "115b03c2-a041-46e6-8af5-a08a1bc3ed86",
+      "f9c1f4b5-ed11-4cbc-aab7-16fdf7afc66e",
+      "12d80fa1-22c9-4cc2-8456-90b5de596344",
+      "c79d646d-1e3a-4229-a516-b5d16e33fa34",
+      "e4680dca-ba34-4c7d-9fec-bb4b41af74bd",
+      "bf1592cf-15da-40ac-85b2-0fcde18b0a14",
+      "c067c4ae-2e9f-4b9d-b372-3559cc0955e2",
+      "822c1a80-e71a-45e8-bd4f-8214007d6351",
+      "a324332f-47cc-4019-8d03-696d0d8a8a06",
+      "d6be7923-4504-4d26-8b25-9fa436758638",
+      "8458f86d-aecd-4c37-8776-6f5d69fc8932",
+      "2bfe6980-de1b-48f2-be16-c6240fde5b21",
+      "bd51dc3f-4f53-42f9-bbc5-26b249fd044c",
+      "ead4dd6f-8cd9-4d57-bce0-8cc8dc3c4cfd",
+      "a6396a01-bf4c-4241-8241-d2837de0bf0c",
+      "a56603a8-b716-47fe-bdb0-34e6fbccf15e",
+      "6f816221-f584-4dcf-9f88-a8807afbd869",
+      "6d2d9631-20cd-4901-a6c0-bc47993bf453",
+      "1abcf6f6-f9e0-4e89-ad29-61913046515f",
+      "b1317144-02c7-42ea-8354-11625897632e",
+      "24d1272b-bffc-4e58-a87e-6ec5c179381f",
+      "3fa90890-8ebe-4b58-a7f7-c4ea52dee0b6",
+      "f6cc3a47-9115-4704-aaac-1a791a398604",
+      "4f0b4e34-c49f-40ce-b19b-9b17cd12706b",
+      "66f2ad6b-9546-4b1b-abd2-a0295299fd2b",
+      "61f5505c-aa16-4fef-ae19-1de74a891221",
+      "706d2f5c-94e4-4f95-a8d6-b24f27930225",
+      "c63b76c8-130e-4922-bd47-9f6a6beb3692",
+      "6701302f-9dc0-40f9-956d-f9f93684364b",
+      "059152fe-3098-4dc5-a015-503756e5e3dd",
+      "d32f7140-44a0-44ed-9dc1-6f3796402267",
+      "0e941546-f577-4bde-a96b-27a188cf3431",
+      "bc371111-c928-4237-9d5e-92921e06f2b2",
+      "74c25701-fcd7-4859-b354-d6de6623842a",
+      "8f293aeb-aca3-4174-93ab-3654b44e0528",
+      "0331a92f-c7fe-41e7-8e0a-5f80436a0025",
+      "698fa56f-20e8-4c47-90ca-997a973f1a0b",
+      "0d7260ac-1519-49cc-8848-e83d26b6645d",
+      "042bba71-ad44-49ae-843e-9a341e9a0066",
+      "ea387724-4ff6-485a-9159-0dcabc8e5572",
+      "e37a5fd0-955b-4999-9b0d-dc30e6fb1ac9",
+      "18b9f91f-82c4-4ff6-b1e8-976f376a1ed2",
+      "5604f1ce-a561-4a46-b623-8d099ab60bed",
+      "b83be8cb-7190-4e6c-8189-2bcb98ee4df2",
+      "3f4efc96-85d5-4e8b-bda5-a5b63851f68f",
+      "f66a9207-9f29-4e3d-95fe-2108eadd420c",
+      "903a66ef-b2a9-45a4-b636-24bc39736e4c",
+      "61fac46c-5ad8-4d52-8f35-be2940dc81a9",
+      "af4ef907-ce0c-42e8-b275-dd715594bdf9",
+      "940d724e-ba27-4fef-b312-e342b331027d",
+      "abafba15-90f7-4e33-8647-a0cd6c4d861c",
+      "20f273d0-47e8-4eb2-93f4-5ddcafbdce6e",
+      "ebfb021f-92fc-4fce-a358-b52688747ff6",
+      "0cd3b140-42fd-46f0-a7ab-73ea71cdb816",
+      "67ff748a-3470-4c57-968f-7d77710bc885",
+      "958bfcc2-bca8-4cf9-ba5c-a28b42133b77",
+      "bd1ff575-58cb-4caa-a1c7-827d8d14cbe1",
+      "96263fea-2a7a-4cc8-83fb-7a7877b4a845",
+      "9ac470ea-ac70-40e1-8b0f-4a09f4e61ef7",
+      "87316abf-21df-4ade-9518-0c075cbf6085",
+      "3e0ee278-5922-47ab-a286-fbd7c56155fb",
+      "33ab256d-9301-4bea-bff3-b847576c542e",
+      "2cc6dd1d-c2bf-4eb4-a83e-965bc4019852",
+      "5bd597e5-fc7c-49f6-8ec7-c2f71911ed83",
+      "17b0d90e-c9c3-4bb5-b68c-3b044b7a01be",
+      "07e30c5d-91db-439a-a589-328d655781e6",
+      "6e33c178-31f9-4992-9f61-f94e4ee4f3d7",
+      "4bcac901-7875-408b-87e1-5eefa1ad6ca9",
+      "c226da61-eb9a-4d5a-afdf-2ddddfa0b8cc",
+      "dcd4a1ae-2066-483d-8f00-5c9ab0a22ace",
+      "319a70e0-b340-4458-83fb-a1e5ec1ac3cb",
+      "e5b560be-492d-4422-87d7-15f900627215",
+      "d8415251-6c0c-4eb1-85fd-476e58aea00f",
+      "f9f7089f-be9c-4870-adce-7ff38541e35e",
+      "cd467548-74c6-4e2d-944d-70f597af16a2",
+      "ebeb4d2f-bcbe-4152-a9ce-ea4d1f4c4d7f",
+      "7a5e1389-4d9a-4ef2-8bcb-202f39a9f2c7",
+      "89bae4b3-f51a-4ec2-b85b-1fcf488c77d4",
+      "d555b47c-1584-46e0-8e70-8e75ccea1d12"
+    ]
+  },
+  "defaultPresetKeys": {
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:7ffcb7ce-00ec-4bdc-82cd-45a8889e43ff:2": "d555b47c-1584-46e0-8e70-8e75ccea1d12",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:7ffcb7ce-00ec-4bdc-82cd-45a8889e43ff:0": "89bae4b3-f51a-4ec2-b85b-1fcf488c77d4",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:7ffcb7ce-00ec-4bdc-82cd-45a8889e43ff:6": "7a5e1389-4d9a-4ef2-8bcb-202f39a9f2c7",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:7ffcb7ce-00ec-4bdc-82cd-45a8889e43ff:4": "ebeb4d2f-bcbe-4152-a9ce-ea4d1f4c4d7f",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:7ffcb7ce-00ec-4bdc-82cd-45a8889e43ff:36": "cd467548-74c6-4e2d-944d-70f597af16a2",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:7ffcb7ce-00ec-4bdc-82cd-45a8889e43ff:37": "f9f7089f-be9c-4870-adce-7ff38541e35e",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:388f246b-8c41-4ac1-8e2d-5d79f3ff56d9:3": "d8415251-6c0c-4eb1-85fd-476e58aea00f",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:388f246b-8c41-4ac1-8e2d-5d79f3ff56d9:1": "e5b560be-492d-4422-87d7-15f900627215",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:388f246b-8c41-4ac1-8e2d-5d79f3ff56d9:7": "319a70e0-b340-4458-83fb-a1e5ec1ac3cb",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:388f246b-8c41-4ac1-8e2d-5d79f3ff56d9:5": "dcd4a1ae-2066-483d-8f00-5c9ab0a22ace",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:388f246b-8c41-4ac1-8e2d-5d79f3ff56d9:22": "c226da61-eb9a-4d5a-afdf-2ddddfa0b8cc",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:388f246b-8c41-4ac1-8e2d-5d79f3ff56d9:38": "4bcac901-7875-408b-87e1-5eefa1ad6ca9",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:388f246b-8c41-4ac1-8e2d-5d79f3ff56d9:75": "6e33c178-31f9-4992-9f61-f94e4ee4f3d7",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:388f246b-8c41-4ac1-8e2d-5d79f3ff56d9:76": "07e30c5d-91db-439a-a589-328d655781e6",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:35b2c544-660e-401e-b503-0e14c635303a:8": "17b0d90e-c9c3-4bb5-b68c-3b044b7a01be",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:3474ee95-c274-47f9-aa1a-8322163d96f1:10": "5bd597e5-fc7c-49f6-8ec7-c2f71911ed83",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:b1a81618-b27b-40d2-b0ea-27a9ad408c4b:9": "2cc6dd1d-c2bf-4eb4-a83e-965bc4019852",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:b1a81618-b27b-40d2-b0ea-27a9ad408c4b:65": "33ab256d-9301-4bea-bff3-b847576c542e",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:c30dc15a-0992-4f8d-8bb8-ad3b314e6a6f:11": "3e0ee278-5922-47ab-a286-fbd7c56155fb",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:c30dc15a-0992-4f8d-8bb8-ad3b314e6a6f:39": "87316abf-21df-4ade-9518-0c075cbf6085",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:c30dc15a-0992-4f8d-8bb8-ad3b314e6a6f:40": "9ac470ea-ac70-40e1-8b0f-4a09f4e61ef7",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:c30dc15a-0992-4f8d-8bb8-ad3b314e6a6f:41": "96263fea-2a7a-4cc8-83fb-7a7877b4a845",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:e5020595-5c5d-4e87-b849-270a518d0dcf:12": "bd1ff575-58cb-4caa-a1c7-827d8d14cbe1",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:e5020595-5c5d-4e87-b849-270a518d0dcf:32": "958bfcc2-bca8-4cf9-ba5c-a28b42133b77",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:e5020595-5c5d-4e87-b849-270a518d0dcf:33": "67ff748a-3470-4c57-968f-7d77710bc885",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:e5020595-5c5d-4e87-b849-270a518d0dcf:34": "0cd3b140-42fd-46f0-a7ab-73ea71cdb816",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:e5020595-5c5d-4e87-b849-270a518d0dcf:35": "ebfb021f-92fc-4fce-a358-b52688747ff6",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:4f51116a-d9ee-4516-925d-21f183e2afad:13": "20f273d0-47e8-4eb2-93f4-5ddcafbdce6e",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:4f51116a-d9ee-4516-925d-21f183e2afad:81": "abafba15-90f7-4e33-8647-a0cd6c4d861c",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:4f51116a-d9ee-4516-925d-21f183e2afad:82": "940d724e-ba27-4fef-b312-e342b331027d",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:4f51116a-d9ee-4516-925d-21f183e2afad:83": "af4ef907-ce0c-42e8-b275-dd715594bdf9",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:4f51116a-d9ee-4516-925d-21f183e2afad:84": "61fac46c-5ad8-4d52-8f35-be2940dc81a9",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:4f51116a-d9ee-4516-925d-21f183e2afad:85": "903a66ef-b2a9-45a4-b636-24bc39736e4c",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:4f51116a-d9ee-4516-925d-21f183e2afad:86": "f66a9207-9f29-4e3d-95fe-2108eadd420c",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:8eaad775-3119-417e-8cf4-2a10bfd592c8:14": "3f4efc96-85d5-4e8b-bda5-a5b63851f68f",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:481fb609-6446-4870-9f46-90c4dd623403:16": "b83be8cb-7190-4e6c-8189-2bcb98ee4df2",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:481fb609-6446-4870-9f46-90c4dd623403:15": "5604f1ce-a561-4a46-b623-8d099ab60bed",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:481fb609-6446-4870-9f46-90c4dd623403:18": "18b9f91f-82c4-4ff6-b1e8-976f376a1ed2",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:481fb609-6446-4870-9f46-90c4dd623403:17": "e37a5fd0-955b-4999-9b0d-dc30e6fb1ac9",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:481fb609-6446-4870-9f46-90c4dd623403:19": "ea387724-4ff6-485a-9159-0dcabc8e5572",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:9f3ee141-26ad-437e-97bd-d22298d02ad2:20": "042bba71-ad44-49ae-843e-9a341e9a0066",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:9f3ee141-26ad-437e-97bd-d22298d02ad2:66": "0d7260ac-1519-49cc-8848-e83d26b6645d",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:9f3ee141-26ad-437e-97bd-d22298d02ad2:77": "698fa56f-20e8-4c47-90ca-997a973f1a0b",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:9f3ee141-26ad-437e-97bd-d22298d02ad2:78": "0331a92f-c7fe-41e7-8e0a-5f80436a0025",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:9f3ee141-26ad-437e-97bd-d22298d02ad2:79": "8f293aeb-aca3-4174-93ab-3654b44e0528",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:9f3ee141-26ad-437e-97bd-d22298d02ad2:80": "74c25701-fcd7-4859-b354-d6de6623842a",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:1a17ca16-7ee5-4ea5-b191-2f02ace24d21:21": "bc371111-c928-4237-9d5e-92921e06f2b2",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:67d5d8da-acd7-4207-bb10-b5542d3a663b:23": "0e941546-f577-4bde-a96b-27a188cf3431",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:67d5d8da-acd7-4207-bb10-b5542d3a663b:24": "d32f7140-44a0-44ed-9dc1-6f3796402267",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:67d5d8da-acd7-4207-bb10-b5542d3a663b:25": "059152fe-3098-4dc5-a015-503756e5e3dd",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:67d5d8da-acd7-4207-bb10-b5542d3a663b:26": "6701302f-9dc0-40f9-956d-f9f93684364b",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:0f56c2f2-644c-49c9-8989-94e11f7129d0:27": "c63b76c8-130e-4922-bd47-9f6a6beb3692",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:0f56c2f2-644c-49c9-8989-94e11f7129d0:28": "706d2f5c-94e4-4f95-a8d6-b24f27930225",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:0f56c2f2-644c-49c9-8989-94e11f7129d0:87": "61f5505c-aa16-4fef-ae19-1de74a891221",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:0f56c2f2-644c-49c9-8989-94e11f7129d0:88": "66f2ad6b-9546-4b1b-abd2-a0295299fd2b",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:044830d2-f23b-44d6-ac0d-b5d733caa900:29": "4f0b4e34-c49f-40ce-b19b-9b17cd12706b",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:044830d2-f23b-44d6-ac0d-b5d733caa900:30": "f6cc3a47-9115-4704-aaac-1a791a398604",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:044830d2-f23b-44d6-ac0d-b5d733caa900:31": "3fa90890-8ebe-4b58-a7f7-c4ea52dee0b6",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:468b8e94-9da4-4f7a-8715-a22a48844f9e:42": "24d1272b-bffc-4e58-a87e-6ec5c179381f",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:0693554c-338e-4790-8982-b9c6d476dc69:43": "b1317144-02c7-42ea-8354-11625897632e",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:0693554c-338e-4790-8982-b9c6d476dc69:44": "1abcf6f6-f9e0-4e89-ad29-61913046515f",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:0693554c-338e-4790-8982-b9c6d476dc69:45": "6d2d9631-20cd-4901-a6c0-bc47993bf453",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:a8cc6d22-aad0-4ab8-bf1e-2f843924164a:46": "6f816221-f584-4dcf-9f88-a8807afbd869",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:882a636f-3bac-431a-966d-c5e6bba9f949:47": "a56603a8-b716-47fe-bdb0-34e6fbccf15e",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:882a636f-3bac-431a-966d-c5e6bba9f949:48": "a6396a01-bf4c-4241-8241-d2837de0bf0c",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:882a636f-3bac-431a-966d-c5e6bba9f949:49": "ead4dd6f-8cd9-4d57-bce0-8cc8dc3c4cfd",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:882a636f-3bac-431a-966d-c5e6bba9f949:50": "bd51dc3f-4f53-42f9-bbc5-26b249fd044c",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:471e39d2-fb11-4c8c-8d89-4b322d2498e0:51": "2bfe6980-de1b-48f2-be16-c6240fde5b21",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:0acebdee-a4a5-4e12-a695-e19609728e30:52": "8458f86d-aecd-4c37-8776-6f5d69fc8932",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:7d1e7ba7-f957-40e5-a3fc-da49f769ab65:53": "d6be7923-4504-4d26-8b25-9fa436758638",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:ba5d2428-f7e0-4c20-ac41-9dd56e9178b4:54": "a324332f-47cc-4019-8d03-696d0d8a8a06",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:00a5c10c-d3bd-459f-83fd-43180b521a44:55": "822c1a80-e71a-45e8-bd4f-8214007d6351",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:00a5c10c-d3bd-459f-83fd-43180b521a44:56": "c067c4ae-2e9f-4b9d-b372-3559cc0955e2",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:00a5c10c-d3bd-459f-83fd-43180b521a44:57": "bf1592cf-15da-40ac-85b2-0fcde18b0a14",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:c20a2254-0349-4470-9fc8-e5c0f8cf3404:58": "e4680dca-ba34-4c7d-9fec-bb4b41af74bd",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:c20a2254-0349-4470-9fc8-e5c0f8cf3404:59": "c79d646d-1e3a-4229-a516-b5d16e33fa34",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:c20a2254-0349-4470-9fc8-e5c0f8cf3404:60": "12d80fa1-22c9-4cc2-8456-90b5de596344",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:1f18ffc3-47ea-4ce0-9829-0576d03a7ec8:61": "f9c1f4b5-ed11-4cbc-aab7-16fdf7afc66e",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:1f18ffc3-47ea-4ce0-9829-0576d03a7ec8:62": "115b03c2-a041-46e6-8af5-a08a1bc3ed86",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:1f18ffc3-47ea-4ce0-9829-0576d03a7ec8:63": "fbb36a9a-9618-4400-bea2-1109251bc4b8",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:1f18ffc3-47ea-4ce0-9829-0576d03a7ec8:64": "811b0c9f-8838-4e4f-89b5-0b5812707990",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:04dbd989-32d0-40b4-9e71-17c920f2a8a9:67": "673f1b51-9ece-4db9-813a-2b29873a5763",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:dda44ade-5f9c-4a3a-9d2c-2a976c7476d9:68": "d5854734-358f-489c-bff5-4d1c6d444b2f",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:287aa49f-e56b-4530-a469-855776c84a8d:69": "b3a35b2a-d87f-4264-b583-95500f0af887",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:287aa49f-e56b-4530-a469-855776c84a8d:70": "4a9176f8-54d4-401c-9461-f6ed0f7e5e3f",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:287aa49f-e56b-4530-a469-855776c84a8d:71": "0851835b-0d95-42ed-84a4-81dd79fe6068",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:287aa49f-e56b-4530-a469-855776c84a8d:72": "e7477927-78f3-4bfa-b283-01b4a6336526",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:287aa49f-e56b-4530-a469-855776c84a8d:73": "8494499b-9670-4bc9-8e50-b77269f77267",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:97a4af4b-086e-4efd-b125-7ae2da85e697:74": "14708d76-16e3-4dac-b76c-fbd9ef0ddf15",
+    "074fc39e-678b-4c13-8916-ffca8d505d1d:0ebe2c7d-96f3-4f0e-a2e3-ae13fe27c403:89": "20599ff9-b5dc-44d3-815c-59607d1aaa0f"
+  },
+  "currentTheme": "Default",
+  "experimentalSetting": {
+    "enableInterrogativeUpspeak": false,
+    "enableMorphing": false,
+    "enableMultiSelect": false,
+    "shouldKeepTuningOnTextChange": false
+  },
+  "acceptRetrieveTelemetry": "Refused",
+  "acceptTerms": "Accepted",
+  "confirmedTips": {
+    "tweakableSliderByScroll": false,
+    "engineStartedOnAltPort": false,
+    "notifyOnGenerate": false
+  },
+  "registeredEngineDirs": [],
+  "recentlyUsedProjects": [],
+  "editorFont": "default",
+  "showTextLineNumber": false,
+  "showAddAudioItemButton": true,
+  "splitTextWhenPaste": "PERIOD_AND_NEW_LINE",
+  "splitterPosition": {},
+  "enablePreset": false,
+  "shouldApplyDefaultPresetOnVoiceChanged": false,
+  "enableMultiEngine": false,
+  "enableMemoNotation": false,
+  "enableRubyNotation": false,
+  "undoableTrackOperations": {
+    "soloAndMute": true,
+    "panAndGain": true
+  },
+  "showSingCharacterPortrait": true,
+  "__internal__": {
+    "migrations": {
+      "version": "0.21.1"
+    }
+  }
+}

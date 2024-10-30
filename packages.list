@@ -4,6 +4,7 @@ alsa-utils
 asciiquarium
 base
 base-devel
+blender
 blueman
 bluez
 bluez-utils
@@ -44,8 +45,11 @@ i3lock-fancy-git
 i3status
 i3-wm
 intel-ucode
+jd-gui-bin
 jdk21-openjdk
+jdk8-openjdk
 jetbrains-toolbox
+jre8-openjdk
 kitty
 less
 libpulse
@@ -75,6 +79,7 @@ npm
 nvidia-prime
 nyancat
 ollama
+p7zip
 picom
 pipewire
 pipewire-alsa
@@ -125,6 +130,7 @@ yay
 yazi
 yt-dlp
 zellij
+zip
 zram-generator
 zsh
 zsh-autosuggestions

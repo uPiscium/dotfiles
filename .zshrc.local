@@ -62,6 +62,7 @@ alias update="UPDATE_LIST"
 alias reload="source ~/.zshrc && setxkbmap -option ctrl:nocaps && xmodmap ~/.xmodmap"
 alias vi='vim'
 alias gsr='gpu-screen-recorder-gtk'
+alias voicevox='~/.voicevox/VOICEVOX.AppImage'
 alias NVIDIA='~/dotfiles/NVIDIA.sh'
 alias INTEL='~/dotfiles/INTEL.sh'
 
