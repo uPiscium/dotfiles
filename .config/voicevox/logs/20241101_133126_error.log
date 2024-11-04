@@ -1,0 +1,15 @@
+[13:31:28.974] [error] ENGINE 074fc39e-678b-4c13-8916-ffca8d505d1d STDERR: Warning: cpu_num_threads is set to 0. Setting it to half of the logical cores.
+
+[13:31:29.496] [error] ENGINE 074fc39e-678b-4c13-8916-ffca8d505d1d STDERR: INFO:     Started server process [23983]
+INFO:     Waiting for application startup.
+
+[13:31:29.496] [error] ENGINE 074fc39e-678b-4c13-8916-ffca8d505d1d STDERR: INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:50021 (Press CTRL+C to quit)
+
+[13:31:31.721] [error] ENGINE 074fc39e-678b-4c13-8916-ffca8d505d1d STDERR: INFO:     Shutting down
+
+[13:31:31.822] [error] ENGINE 074fc39e-678b-4c13-8916-ffca8d505d1d STDERR: INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+
+[13:31:31.824] [error] ENGINE 074fc39e-678b-4c13-8916-ffca8d505d1d STDERR: INFO:     Finished server process [23983]
+
