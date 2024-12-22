@@ -102,9 +102,9 @@ bindsym $mod+space exec --no-startup-id "~/dotfiles/toggleTouchpad.sh"
 bindsym F10 exec --no-startup-id "~/dotfiles/toggleTouchpad.sh"
 
 # HDMI
-bindsym $mod+Right exec --no-startup-id ~/dotfiles/HDMI.sh right
-bindsym $mod+Left exec --no-startup-id ~/dotfiles/HDMI.sh left
-bindsym $mod+Down exec --no-startup-id ~/dotfiles/HDMI.sh off
+bindsym $mod+Right exec --no-startup-id "~/dotfiles/.config/HDMI.sh right"
+bindsym $mod+Left exec --no-startup-id "~/dotfiles/.config/HDMI.sh left"
+bindsym $mod+Down exec --no-startup-id "~/dotfiles/.config/HDMI.sh off"
 
 # change focus
 bindsym $mod+h focus left

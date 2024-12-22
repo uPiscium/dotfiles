@@ -2,6 +2,7 @@ main.advanced_view false
 main.audio_codec opus
 main.audio_input Default output
 main.av1_amd_bug_warning_shown false
+main.change_video_resolution false
 main.codec auto
 main.color_range limited
 main.fps 60
@@ -21,9 +22,12 @@ main.show_recording_started_notifications false
 main.show_recording_stopped_notifications false
 main.software_encoding_warning_shown true
 main.steam_deck_warning_shown false
+main.video_bitrate 15000
+main.video_height 1080
+main.video_width 1920
 record.container mp4
 record.pause_unpause_recording_hotkey 269025045 0
-record.save_directory /home/uPiscium/
+record.save_directory /home/uPiscium
 record.start_stop_recording_hotkey 269025044 0
 replay.container mp4
 replay.save_directory /home/uPiscium/

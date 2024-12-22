@@ -23,7 +23,7 @@ format = '[$time ]($style)'
 format = '[ $symbol$percentage ]($style)'
 
 [[battery.display]]
-threshold = 10
+threshold = 15
 charging_symbol = '󰢜 '
 discharging_symbol = '󰂃 '
 style = 'fg:#FF0000 bg:#000000'
