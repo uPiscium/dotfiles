@@ -15,8 +15,6 @@ keymap.set("n", "<C-b>l", "<cmd>BufferNext<CR>", { noremap = true, silent = true
 keymap.set("n", "<C-b><C-l>", "<cmd>BufferNext<CR>", { noremap = true, silent = true })
 keymap.set("n", "<C-b>d", "<cmd>BufferDelete<CR>", { noremap = true, silent = true })
 keymap.set("n", "<C-b><C-d>", "<cmd>BufferClose<CR>", { noremap = true, silent = true })
-keymap.set("n", "<C-h>", "0", { noremap = true, silent = true }) -- move to left window
-keymap.set("n", "<C-l>", "$", { noremap = true, silent = true }) -- move to right window
 keymap.set("n", "<C-i>", "<C-a>", { noremap = true, silent = true }) -- increment
 keymap.set("n", "<C-a>", "ggVG", { noremap = true, silent = true }) -- select all
 

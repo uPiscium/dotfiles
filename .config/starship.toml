@@ -7,6 +7,7 @@ $battery\
 $directory\
 [](fg:#880000 bg:#000000)\
 $git_branch\
+$git_status\
 [](fg:#000000 bg:#880000)\
 $python\
 [](fg:#880000)\
@@ -91,7 +92,7 @@ truncation_symbol = "…/"
 [directory.substitutions]
 "Documents" = "󰈙 "
 "Downloads" = " "
-"Music" = " "
+"Musics" = " "
 "Pictures" = " "
 
 [git_branch]
@@ -100,6 +101,10 @@ truncation_length = 32
 truncation_symbol = ''
 style = "fg:#FF0000 bg:#000000"
 format = '[$symbol$branch ]($style)'
+
+[git_status]
+style = "fg:#FF0000 bg:#000000"
+format = '[$all_status ]($style)'
 
 [python]
 symbol = '󰆦 '
