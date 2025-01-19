@@ -39,7 +39,6 @@ return {
 		mason_lsp.setup({
 			ensure_installed = {
 				"clangd",
-				"cmake",
 				"docker_compose_language_service",
 				"dockerls",
 				"efm",
@@ -53,7 +52,6 @@ return {
 				"ruff",
 				"ruff_lsp",
 				"taplo",
-				-- "ts_ls",
 				"tinymist",
 				"vimls",
 				"yamlls",
