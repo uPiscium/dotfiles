@@ -1,3 +1,4 @@
+
 git config --global init.defaultBranch main
 git config --global credential.helper store
 git config --global fetch.prune true
@@ -7,11 +8,11 @@ git config --global user.name "uPiscium"
 git config --global alias.a "add"
 git config --global alias.aa "!sh ~/dotfiles/gitscripts/addAll.sh"
 git config --global alias.b "branch"
-git config --global alias.bd "!sh ~/dotfiles/gitscripts/deleteBranch.sh"
+git config --global alias.brd "push origin -d"
 git config --global alias.c "commit -m"
 git config --global alias.cc "rm -r --cached ."
 git config --global alias.g "log --graph --oneline --decorate"
-git config --global alias.l "pull"
+git config --global alias.l "!sh git fetch -p && git pull"
 git config --global alias.m "merge"
 git config --global alias.nb "!sh ~/dotfiles/gitscripts/newBranch.sh"
 git config --global alias.p "push"
