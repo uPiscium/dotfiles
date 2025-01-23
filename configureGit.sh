@@ -1,11 +1,13 @@
 git config --global init.defaultBranch main
 git config --global credential.helper store
+git config --global fetch.prune true
 git config --global user.email "upiscium@gmail.com"
 git config --global user.name "uPiscium"
 
 git config --global alias.a "add"
 git config --global alias.aa "!sh ~/dotfiles/gitscripts/addAll.sh"
 git config --global alias.b "branch"
+git config --global alias.bd "!sh ~/dotfiles/gitscripts/deleteBranch.sh"
 git config --global alias.c "commit -m"
 git config --global alias.cc "rm -r --cached ."
 git config --global alias.g "log --graph --oneline --decorate"

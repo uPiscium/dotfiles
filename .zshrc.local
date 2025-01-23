@@ -8,7 +8,9 @@ export EDITOR=/usr/bin/nvim
 
 # functions
 function uzp() {
-  unzip "$1".zip -d "$1";
+  echo "\033[1;32mUnzipping '$1'...\033[0m";
+  local filename=$(basename "$1" .zip);
+  unzip -q "$1" -d "$filename";
 }
 
 function PACMAN_WRAPPER() {
