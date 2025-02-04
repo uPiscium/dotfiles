@@ -51,6 +51,21 @@ function UPDATE_LIST() {
   setxkbmap -option ctrl:nocaps
 }
 
+function WOL() {
+  echo -ne "\033[1;32mWake up '$1' ? (Y/n)\033[0m";
+  read answer;
+  if [ "$answer" = "n" ]; then
+    echo "Skipping wake up.";
+  else
+    local mac=$(arp -a | grep "$1" | awk '{print $4}');
+    if [ -z "$mac" ]; then
+      echo "No MAC address found.";
+    else
+      wol -i $1 $mac;
+    fi
+  fi
+}
+
 # common aliases
 alias g='git'
 alias ip="ip -c"
@@ -71,7 +86,8 @@ alias NVIDIA='~/dotfiles/NVIDIA.sh'
 alias INTEL='~/dotfiles/INTEL.sh'
 
 eval "$(starship init zsh)"
+eval "$(ssh-agent -s)" >> /dev/null
+ssh-add ~/.ssh/private_key/* >> /dev/null
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
-
